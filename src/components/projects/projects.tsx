@@ -3,63 +3,60 @@ import responsive from './image/responsive_xs.png'
 import app from './image/app_xs.png'
 import { FcOpenedFolder } from "react-icons/fc";
 import './project.css'
+import { motion } from "framer-motion"
 
 
 function Projects() {
   return (
 
-    <div id='projects' className="projects dark:text-white text-black
-    text-base">
+    <motion.div id='projects' className="projects dark:text-white text-black
+    text-base my-10 " whileHover={{ scale: 1.02 }}>
 
-      <div className=" w-auto mb-10">
-        <div className=" font-extrabold text-center md:text-left">
-          <p className=" text-4xl gap-2 flex justify-center md:justify-start "><FcOpenedFolder />Projects</p>
-          <p className=' font-bold hidden '>Front-End Developer</p>
-        </div>
-      </div>
+      <div className="card p-10 font-extrabold text-center md:text-left bg-base-200 dark:bg-neutral-950 rounded-b-none ">
+            <p className="text-4xl gap-2 flex justify-center "><FcOpenedFolder />Projects</p>
+            </div>
 
 
-      <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 '>
+      <div className='grid grid-cols-1  md:grid-cols-2 xl:grid-cols-3 gap-10 md:gap-5 p-5 bg-black bg-opacity-50 card rounded-t-none   '>
 
-        <div className="card w-full shadow-md bg-base-200 dark:bg-neutral-900 border dark:border-neutral-950 ">
+        <motion.div className="card w-full shadow-md bg-white dark:bg-neutral-900 text-center md:text-left " whileHover={{ scale: 1.02 }}>
           <figure><img src={responsive} alt="Shoes" /></figure>
           <div className="card-body">
-            <h2 className="card-title text-2xl">
+            <h2 className="card-title text-2xl font-bold self-center md:self-start ">
               Portfolio Website
               <div className="badge badge-secondary hidden">NEW</div>
             </h2>
-            <p>This is my personal portfolio website to showcase my skills, projects, and achievements. Design and develop in React.js with fully responsive in all devices.</p>
-            <div className='card-actions font-semibold my-2 '><p>Technologies:</p></div>
-            <div className="card-actions text-white justify-start  ">
+            <p className='text-left break-all indent-8'>This is my personal portfolio website to showcase my skills, projects, and achievements. Design and develop in React.js with fully responsive in all devices. <br /><br /></p>
+            <div className='card-actions font-semibold my-2 text-neutral-500 '><p>Technologies:</p></div>
+            <div className="card-actions text-white justify-center md:justify-start   ">
               <div className='   rounded-xl bg-react px-3 '>REACT JS</div>
               <div className='   rounded-xl bg-typescript px-3 '>TYPESCRIPT</div>
               <div className='   rounded-xl bg-sky-500 px-3 '>CSS</div>
               <div className='   rounded-xl bg-tailwild px-3 '>TAILWIND CSS</div>
             </div>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="card w-fill shadow-md bg-base-200 dark:bg-neutral-900 border dark:border-neutral-950">
+        <motion.div className="card w-fill shadow-md bg-white dark:bg-neutral-900 text-center md:text-left " whileHover={{ scale: 1.02 }}>
           <figure><img src={app} alt="Shoes" /></figure>
           <div className="card-body">
-            <h2 className="card-title text-2xl">
-            Mobile Application
+            <h2 className="card-title text-2xl font-bold self-center md:self-start">
+            Mobile Game App
               <div className="badge badge-secondary hidden">NEW</div>
             </h2>
-            <p>
-              I have a mobile gaming app that was created using game-making software, and it generates revenue through AdMob advertisements.</p>
+            <p className='break-all text-left indent-8'>Designed and developed a mobile gaming app that was created using game-making software, and it generates revenue through AdMob advertisements.</p>
               <div className='flex flex-wrap justify-center md:justify-start my-3 gap-3'>
-              <div className=' bg-gradient-to-r from-green-400 to-blue-500 hover:from-green-500 hover:to-blue-600  rounded-2xl w-fit p-2 px-2 hover:scale-95 '><a href="https://apps.apple.com/th/developer/nattagrit-ridtikhab/id1288981567" target="_blank" className=' font-semibold text-white' ><i className='bx-fw bx bxl-apple bx-sm'></i>App Store </a></div>
-              <div className=' bg-gradient-to-r from-green-400 to-blue-500 hover:from-green-500 hover:to-blue-600  rounded-2xl w-fit p-2 px-2 hover:scale-95 '><a href="https://play.google.com/store/apps/developer?id=TheBayApps&hl=en_US" target="_blank" className=' font-semibold text-white' ><i className='bx-fw bx bxl-play-store bx-sm'></i>Google Play </a></div>
+              <motion.a className=' bg-gradient-to-r from-indigo-500 to-emerald-500 hover:from-pink-500 hover:to-amber-500 font-semibold text-white   rounded-2xl w-fit p-2 px-2  ' whileTap={{ scale: 1.1 }} href="https://apps.apple.com/th/developer/nattagrit-ridtikhab/id1288981567" target="_blank" ><span className='bx-flashing'><i className='bx-fw bx bxl-apple bx-sm '></i>Apple Store</span> </motion.a>
+              <motion.a className=' bg-gradient-to-r from-indigo-500 to-emerald-500 hover:from-pink-500 hover:to-amber-500 font-semibold text-white   rounded-2xl w-fit p-2 px-2  ' whileTap={{ scale: 1.1 }} href="https://play.google.com/store/apps/developer?id=TheBayApps&hl=en_US" target="_blank" ><span className='bx-flashing'><i className='bx-fw bx bxl-play-store bx-sm'></i>Google Play</span> </motion.a>
             </div>
-            <div className='card-actions font-semibold mb-2 '><p>Technologies:</p></div>
-            <div className="card-actions text-white justify-start">
-              <div className='   rounded-xl bg-slate-500 px-3 '>CONSTRUCT 3</div>
+            <div className='card-actions font-semibold my-2 text-neutral-500  '><p>Technologies:</p></div>
+            <div className="card-actions text-white justify-center md:justify-start">
+              <div className='   rounded-xl bg-slate-500 px-3   '>CONSTRUCT 3</div>
               <div className='   rounded-xl bg-javascript px-3 '>JAVASCRIPT</div>
               <div className='   rounded-xl bg-red-500 px-3 '>ADMOB</div>
             </div>
           </div>
-        </div>
+        </motion.div>
 
         {/* 
         <div className=" rounded-3xl shadow-2xl overflow-hidden p-10 grid md:grid-cols-3  ">
@@ -112,7 +109,7 @@ function Projects() {
 */}
       </div>
 
-    </div>
+    </motion.div>
   )
 }
 
