@@ -43,7 +43,7 @@ function Skills() {
           </motion.div>
 
           <motion.div className="font-medium grid grid-cols-4 md:grid-cols-6 text-center gap-x-10 gap-y-7 place-items-center  dark:border-neutral-800 pb-7 "   >
-            <div className=' col-span-4 md:col-span-2 justify-self-center md:justify-self-start ' ><pre className='lg:text-lg text-base font-black text-neutral-500 '>$ VERSION CONTROL</pre></div>
+            <div className=' col-span-4 md:col-span-2 justify-self-center md:justify-self-start ' ><pre className='lg:text-lg text-base font-bold text-neutral-500 '>$ VERSION CONTROL</pre></div>
             <div className='hover:scale-110 col-start-2 md:col-auto' ><i className='bx bxl-git bx-lg bx-tada-hover' style={{ color: '#E8330B  ' }}></i><p>GIT</p></div>
             <div className='hover:scale-110' ><i className='bx bxl-github bx-lg bx-tada-hover' style={{ color: '#808080 ' }}></i><p>GITHUB</p></div>
           </motion.div>
