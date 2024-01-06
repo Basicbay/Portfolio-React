@@ -21,13 +21,13 @@ function Experience() {
                    
                     <div>
                         <p className=' text-2xl  font-bold mb-1 '>Mobile Game Developer</p>
-                        <p className=' font-semibold mb-5 text-neutral-500 '><i className='bx bx-map'></i> Platforms: iOS and Android [ 2018 - Present ] </p>
+                        <p className=' font-semibold mb-5 text-neutral-500 '><i className='bx bx-map'></i> Platforms: iOS and Android <br className="md:hidden" />[ 2018 - Present ] </p>
                         <ul className="list-disc list-outside leading-relaxed ml-5">
                         <li><p className='  text-left '>Mobile Game Monetization</p></li>
                         <li><p className='  text-left '>Cross-Platform Development</p></li>
                         <li><p className='  text-left '>UI/UX Design Principles</p></li>
-                        <li><p className='  text-left '>Implemented Responsive Design Principles</p></li>
                         <li><p className='  text-left '>Testing / Debugging</p></li>
+                        <li><p className='  text-left '>Implemented Responsive Design Principles</p></li>
                         </ul>
                         <div className="border-t-2 border-slate-200 dark:border-neutral-700 shadow-lg ... my-5 hidden"></div>
                         </div>

@@ -6,7 +6,7 @@ function Notice() {
   return (
     <>
 
-      <motion.div className="p-5 py-10 card text-white bg-black bg-opacity-50 my-10 " whileHover={{ scale: 1.02 }}>
+      <motion.div className="p-5 py-10 card text-white bg-black bg-opacity-50 my-10 shadow-md" whileHover={{ scale: 1.02 }}>
 
         <div className=" text-center self-center">
           <p className=" underline underline-offset-8 mb-10 bx-flashing">Last Updateded : 01/01/2024</p>
