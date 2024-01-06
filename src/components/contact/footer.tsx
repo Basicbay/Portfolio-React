@@ -26,8 +26,8 @@ function Footer() {
                     <label className="swap">
                             <div onClick={() =>  { navigator.clipboard.writeText('0867499315')  } } className=" cursor-pointer hover:text-blue-500 hover:bg-base-200 dark:hover:bg-neutral-950 rounded-btn p-3 w-72 text-left " ><i className='bx-fw bx bxs-phone bx-md bx-tada-hover'></i>0867499315
                             <input type="checkbox" />
-                            <div className="swap-on"><i className='bx bx-copy bx-sm absolute right-4 bottom-3 scale-75' ></i></div>
                             <div className="swap-off"><i className='bx bx-check bx-sm absolute right-4 bottom-3 scale-75' ></i></div>
+                            <div className="swap-on"><i className='bx bx-copy bx-sm absolute right-4 bottom-3 scale-75' ></i></div>
                             </div>
                             </label>
                         </motion.div>
