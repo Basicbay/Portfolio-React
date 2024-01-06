@@ -57,8 +57,8 @@ function About() {
 
           <motion.div >
             <p className='text-2xl font-bold gap-2 my-5 flex self-center md:self-start '>🎓<span className=''>Education</span></p>
-            <div className='flex gap-3 place-items-center self-center md:self-start'>
-              <img className=" w-12 h-fit pb-3 " src={Rsu} alt=""></img>
+            <div className='flex gap-3 md:self-start'>
+              <img className=" w-12 pb-3 " src={Rsu} alt=""></img>
               <p className=' text-left self-center break-normal'><span className='  font-semibold'>Bachelor of Science <br />Innovation Technology</span><br /> <span className=' '>Rangsit University</span> </p>
             </div>
           </motion.div>

@@ -12,7 +12,7 @@ function Projects() {
     <motion.div id='projects' className="projects dark:text-white text-black
     text-base my-10 " whileHover={{ scale: 1.02 }}>
 
-      <div className="card p-10 font-extrabold text-center md:text-left bg-base-200 dark:bg-neutral-950 rounded-b-none ">
+      <div className="card p-10 font-extrabold text-center md:text-left bg-neutral-100 dark:bg-neutral-950 rounded-b-none ">
             <p className="text-4xl gap-2 flex justify-center "><FcOpenedFolder />Projects</p>
             </div>
 

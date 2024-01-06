@@ -8,7 +8,7 @@ function Footer() {
             <motion.div id='contact' className="rounded-2xl shadow-md bg-black bg-opacity-50 text-white  text-base mb-5 my-10 "
                 whileHover={{ scale: 1.02 }}>
 
-                <div className="card p-10 font-extrabold text-center md:text-left bg-base-200 text-black dark:text-white dark:bg-neutral-950 rounded-b-none">
+                <div className="card p-10 font-extrabold text-center md:text-left bg-neutral-100 text-black dark:text-white dark:bg-neutral-950 rounded-b-none">
                     <p className=" bg text-4xl gap-2 flex justify-center "><FcVoicePresentation />Contact Me</p>
                 </div>
 

@@ -9,7 +9,7 @@ function Experience() {
 
             <div className="  shadow-md bg-white dark:bg-neutral-900 rounded-2xl overflow-hidden">
 
-                <div className="card p-10 font-extrabold text-center md:text-left bg-base-200 dark:bg-neutral-950 rounded-b-none">
+                <div className="card p-10 font-extrabold text-center md:text-left bg-neutral-100 dark:bg-neutral-950 rounded-b-none">
                     <p className="text-4xl gap-2 flex justify-center"><i className="" style={{ color: '#2075FF  ' }}><PiPuzzlePieceFill /></i>Experience</p>
                 </div>
 
