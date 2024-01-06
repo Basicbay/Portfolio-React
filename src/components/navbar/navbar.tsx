@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className='lg:navbar-start flex justify-center items-center'><HashLink smooth to="/#" scroll={(el) => { const yOffset = -100; const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset; window.scrollTo({ top: y, behavior: 'smooth' }); }} className="btn btn-ghost text-xl dark:hover:bg-neutral-800 hover:bg-base-300"><i className="bw-fw bx fi fi-brands-dev bx-sm"></i> My Portfolio</HashLink></div>
+        <div className='lg:navbar-start flex justify-center items-center'><HashLink smooth to="/#" scroll={(el) => { const yOffset = -100; const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset; window.scrollTo({ top: y, behavior: 'smooth' }); }} className="btn btn-ghost text-xl dark:hover:bg-neutral-800 hover:bg-base-300 font-bold"> My Portfolio</HashLink></div>
 
         <nav className="navbar-center hidden lg:flex h-1">
 
