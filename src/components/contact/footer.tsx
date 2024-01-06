@@ -32,14 +32,13 @@ function Footer() {
                             </label>
                         </motion.div>
                         
-                        <motion.a href="mailto:Basicbay@icloud.com"  className=' tooltip' data-tip="Send Email" whileTap={{ scale: 1.1 }}>
-                            <div className=" cursor-pointer hover:text-emerald-500 hover:bg-base-200 dark:hover:bg-neutral-950 rounded-btn p-3 w-72 text-left" ><i className='bx-fw bx bx-envelope bx-md bx-tada-hover'></i>Basicbay@icloud.com <i className='bx bx-paper-plane bx-sm absolute right-4 scale-75' ></i></div>
+                        <motion.a href="mailto:Keepatbayy@gmail.com"  className=' tooltip' data-tip="Send Email" whileTap={{ scale: 1.1 }}>
+                            <div className=" cursor-pointer hover:text-emerald-500 hover:bg-base-200 dark:hover:bg-neutral-950 rounded-btn p-3 w-72 text-left" ><i className='bx-fw bx bx-envelope bx-md bx-tada-hover'></i>Keepatbayy@gmail.com<i className='bx bx-paper-plane bx-sm absolute right-4 scale-75' ></i></div>
                         </motion.a>
 
                         <motion.a href="https://www.linkedin.com/in/nattagrit-ridtikhab-83894b2a0/" target="_blank" className=" cursor-pointer hover:text-emerald-500 tooltip hover:bg-base-200 dark:hover:bg-neutral-950 rounded-btn p-3 w-72 text-left" data-tip="Linked" whileTap={{ scale: 1.1 }}><i className='bx-fw bx bxl-linkedin bx-md bx-tada-hover'></i>Nattagrit Ridtikhab<i className='bx bx-link bx-sm absolute right-4 scale-95' ></i></motion.a>
 
-                        <motion.a href="https://github.com/Basicbay" target="_blank" className=" cursor-pointer hover:text-emerald-500 tooltip hover:bg-base-200 dark:hover:bg-neutral-950 rounded-btn p-3 w-72 text-left" data-tip="Github" whileTap={{ scale: 1.1 }}><i className='bx-fw bx bxl-github bx-md  bx-tada-hover'></i>Basicbay<i className='bx bx-link bx-sm absolute right-4 scale-95' ></i></motion.a>
-
+                        <motion.a href="https://github.com/Basicbay" target="_blank" className=" cursor-pointer hover:text-emerald-500 tooltip hover:bg-base-200 dark:hover:bg-neutral-950 rounded-btn p-3 w-72  text-left" data-tip="Github" whileTap={{ scale: 1.1 }}><i className='bx-fw bx bxl-github bx-md  bx-tada-hover'></i>Basicbay<i className='bx bx-link bx-sm absolute right-4 scale-95' ></i></motion.a>
 
                     </nav>
 

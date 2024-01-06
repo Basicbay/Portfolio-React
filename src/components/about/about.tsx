@@ -1,12 +1,9 @@
 import Pic from './image/me.jpg'
 import Rsu from './image/rsuLogo.png'
 import { motion } from "framer-motion"
-
-
+import resume from './pdf/resume.pdf'
 
 function About() {
-
-
 
   return (
 
@@ -44,11 +41,11 @@ function About() {
 
           </div>
 
-          <motion.a href="" target="_blank" className='h-fit mt-6 my-5 bg-gradient-to-r from-indigo-500 to-emerald-500 hover:from-pink-500 hover:to-amber-500 font-semibold text-white  rounded-2xl w-fit p-3 px-5 ' whileTap={{ scale: 1.1 }}><i className='bx-fw bx bxs-download bx-sm bx-fade-up'></i>Download Resume</motion.a>
+        <motion.a href={resume} download="Resume" target="_blank" className='h-fit mt-6 my-5 bg-gradient-to-r from-indigo-500 to-emerald-500 hover:from-pink-500 hover:to-amber-500 font-semibold text-white  rounded-2xl w-fit p-3 px-5 ' whileTap={{ scale: 1.1 }}><i className='bx-fw bx bxs-download bx-sm bx-fade-up'></i>Download Resume</motion.a>
 
         </motion.div>
 
-        <motion.div className=' text-left break-all md:col-span-3 bg-white card p-9 dark:bg-neutral-900   ' whileHover={{ scale: 1.02 }}>
+        <motion.div className=' text-left break-all md:col-span-3 bg-white card p-9 dark:bg-neutral-900 ' whileHover={{ scale: 1.02 }}>
 
           <motion.div >
             <p className=' text-2xl font-bold gap-2 my-5 flex self-center md:self-start  '>😊<span className=''>About Me ...</span></p>

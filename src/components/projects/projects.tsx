@@ -26,13 +26,23 @@ function Projects() {
               Portfolio Website
               <div className="badge badge-secondary hidden">NEW</div>
             </h2>
-            <p className='text-left break-all indent-8'>This is my personal portfolio website to showcase my skills, projects, and achievements. Design and develop in React.js with fully responsive in all devices. <br /><br /></p>
-            <div className='card-actions font-semibold my-2 text-neutral-500 '><p>Technologies:</p></div>
-            <div className="card-actions text-white justify-center md:justify-start   ">
+
+            <div>
+            <p className='break-all text-left indent-8'>This is my personal portfolio website to showcase my skills, projects, and achievements. Design and develop in React.js with fully responsive in all devices. </p>             
+            <div className=' flex flex-wrap justify-center md:justify-start gap-3 mt-6 mb-4'>
+              <motion.a className=' bg-gradient-to-r from-indigo-500 to-emerald-500 hover:from-pink-500 hover:to-amber-500 font-semibold text-white   rounded-2xl w-fit p-2 px-2  ' whileTap={{ scale: 1.1 }} href="https://github.com/Basicbay/Portfolio-Website" target="_blank" ><span className=''><i className='bx-fw bx bxl-github bx-sm bx-flashing  '></i>Repository</span> </motion.a>
+              
+            </div>
+            </div>
+            
+            <div className='card-actions font-semibold mb-1 text-neutral-500 '><p>Technologies:</p></div>
+            <div className="card-actions text-white justify-center md:justify-start text-sm   ">
               <div className='   rounded-xl bg-react px-3 '>REACT JS</div>
-              <div className='   rounded-xl bg-typescript px-3 '>TYPESCRIPT</div>
-              <div className='   rounded-xl bg-sky-500 px-3 '>CSS</div>
-              <div className='   rounded-xl bg-tailwild px-3 '>TAILWIND CSS</div>
+              <div className='   rounded-xl bg-typescript px-3 '>TYPESCRIPT</div> 
+              <div className='   rounded-xl bg-tailwild px-3 '>TAILWIND CSS</div> 
+              <div className='   rounded-xl bg-sky-500 px-3 '>CSS</div>              
+              <div className='   rounded-xl bg-orange-500 px-3 '>HTML</div>
+
             </div>
           </div>
         </motion.div>
@@ -44,16 +54,22 @@ function Projects() {
             Mobile Game App
               <div className="badge badge-secondary hidden">NEW</div>
             </h2>
-            <p className='break-all text-left indent-8'>Designed and developed a mobile gaming app that was created using game-making software, and it generates revenue through AdMob advertisements.</p>
-              <div className='flex flex-wrap justify-center md:justify-start my-3 gap-3'>
-              <motion.a className=' bg-gradient-to-r from-indigo-500 to-emerald-500 hover:from-pink-500 hover:to-amber-500 font-semibold text-white   rounded-2xl w-fit p-2 px-2  ' whileTap={{ scale: 1.1 }} href="https://apps.apple.com/th/developer/nattagrit-ridtikhab/id1288981567" target="_blank" ><span className='bx-flashing'><i className='bx-fw bx bxl-apple bx-sm '></i>Apple Store</span> </motion.a>
-              <motion.a className=' bg-gradient-to-r from-indigo-500 to-emerald-500 hover:from-pink-500 hover:to-amber-500 font-semibold text-white   rounded-2xl w-fit p-2 px-2  ' whileTap={{ scale: 1.1 }} href="https://play.google.com/store/apps/developer?id=TheBayApps&hl=en_US" target="_blank" ><span className='bx-flashing'><i className='bx-fw bx bxl-play-store bx-sm'></i>Google Play</span> </motion.a>
+
+            <div>
+            <p className='break-all text-left indent-8'>Designed and developed a mobile gaming app that was created using game-making software, and it generates revenue through Google AdMob advertisements.</p>             
+            <div className=' flex flex-wrap justify-center md:justify-start gap-3 mt-6 mb-4 '>
+              <motion.a className=' bg-gradient-to-r from-indigo-500 to-emerald-500 hover:from-pink-500 hover:to-amber-500 font-semibold text-white   rounded-2xl w-fit p-2 px-2  ' whileTap={{ scale: 1.1 }} href="https://apps.apple.com/th/developer/nattagrit-ridtikhab/id1288981567" target="_blank" ><span className=''><i className='bx-fw bx bxl-apple bx-sm bx-flashing '></i>Apple Store</span> </motion.a>
+              <motion.a className=' bg-gradient-to-r from-indigo-500 to-emerald-500 hover:from-pink-500 hover:to-amber-500 font-semibold text-white   rounded-2xl w-fit p-2 px-2  ' whileTap={{ scale: 1.1 }} href="https://play.google.com/store/apps/developer?id=TheBayApps&hl=en_US" target="_blank" ><span className=''><i className='bx-fw bx bxl-play-store bx-sm bx-flashing'></i>Google Play</span> </motion.a>
             </div>
-            <div className='card-actions font-semibold my-2 text-neutral-500  '><p>Technologies:</p></div>
-            <div className="card-actions text-white justify-center md:justify-start">
+            </div>
+            
+            <div className='card-actions font-semibold mb-1 text-neutral-500  '><p>Technologies:</p></div>
+            <div className="card-actions text-white justify-center md:justify-start text-sm">
               <div className='   rounded-xl bg-slate-500 px-3   '>CONSTRUCT 3</div>
-              <div className='   rounded-xl bg-javascript px-3 '>JAVASCRIPT</div>
               <div className='   rounded-xl bg-red-500 px-3 '>ADMOB</div>
+              <div className='   rounded-xl bg-amber-500 px-3 '>JAVASCRIPT</div>
+              <div className='   rounded-xl bg-blue-500 px-3 '>PHOTOSHOP</div>
+              
             </div>
           </div>
         </motion.div>

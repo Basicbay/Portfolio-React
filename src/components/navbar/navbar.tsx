@@ -1,6 +1,5 @@
 import { HashLink } from 'react-router-hash-link'
 import { PiPuzzlePieceBold } from "react-icons/pi";
-import { HiMenuAlt1 } from "react-icons/hi";
 import { motion } from "framer-motion"
 
 
