@@ -56,7 +56,7 @@ function Projects() {
             </h2>
 
             <div>
-            <p className='hyphens-auto text-left indent-8' lang='de'>Designed and developed a mobile gaming app that was created using game-making software, and it generates revenue through Google AdMob advertisements.</p>             
+            <p className='hyphens-auto text-left indent-8' lang='de'>I developed a mobile gaming app using game-making software, and it generates revenue through Google AdMob advertisements.</p>             
             <div className=' flex flex-wrap justify-center md:justify-start gap-3 mt-6 mb-4 '>
               <motion.a className=' bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-700 hover:to-teal-700 font-semibold text-white   rounded-2xl w-fit p-2 px-2  ' whileTap={{ scale: 1.2 }} href="https://apps.apple.com/th/developer/nattagrit-ridtikhab/id1288981567" target="_blank" ><span className=''><i className='bx-fw bx bxl-apple bx-sm bx-flashing '></i>Apple Store</span> </motion.a>
               <motion.a className=' bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-700 hover:to-teal-700 font-semibold text-white   rounded-2xl w-fit p-2 px-2  ' whileTap={{ scale: 1.2 }} href="https://play.google.com/store/apps/developer?id=TheBayApps&hl=en_US" target="_blank" ><span className=''><i className='bx-fw bx bxl-play-store bx-sm bx-flashing'></i>Google Play</span> </motion.a>

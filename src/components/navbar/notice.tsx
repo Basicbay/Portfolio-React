@@ -4,7 +4,6 @@ import { HashLink } from 'react-router-hash-link'
 
 function Notice() {
   return (
-    <>
 
       <motion.div className="p-5 py-10 card text-white bg-black bg-opacity-50 my-10 shadow-md" whileHover={{ scale: 1.02 }}>
 
@@ -32,7 +31,7 @@ function Notice() {
         </div>
 
       </motion.div>
-    </>
+
   )
 }
 

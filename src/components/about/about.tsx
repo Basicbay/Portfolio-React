@@ -12,7 +12,7 @@ function About() {
   return (
 
     <div id='about' className='about dark:text-white text-black text-base
-    text-center md:text-left my-5'>
+    text-center md:text-left my-10'>
 
       <div className=" grid md:grid-cols-5 gap-10 md:gap-5 ">
 
@@ -34,7 +34,7 @@ function About() {
               <i className='bx bxs-phone bx-md cursor-pointer  '></i>
             </motion.div>
 
-            <motion.a className='hover:text-blue-500  tooltip' data-tip="Send Email" href="mailto:Keepatbayy@gmail.com"
+            <motion.a className='hover:text-blue-500  tooltip' data-tip="Send Email" href="mailto:Keepatbayy@gmail.com" target="_blank"
              whileTap={{ scale: 1.2 }}>
               <i className='bx bx-envelope bx-md  cursor-pointer  '></i>
             </motion.a>
