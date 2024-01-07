@@ -3,8 +3,6 @@
 
 #root {
     font-family: 'Inter', sans-serif;
-    background-color: #74EBD5;
-    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
 }
 
 .bg-secondary {
@@ -16,5 +14,8 @@
 }
 
 body{
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    background: no-repeat;
 
 }
