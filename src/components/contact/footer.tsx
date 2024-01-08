@@ -47,7 +47,7 @@ function Footer() {
 
                 
 
-                <p className="py-7 card rounded-t-none px-10 text-center bg-white dark:bg-neutral-900 dark:text-white text-black leading-7 " ><motion.span className="" >🙏 Thank you for considering my portfolio. I am thrilled at the opportunity to embark on a journey of growth as a Front-End Developer. 🔥</motion.span></p>
+                <p className="py-7 card rounded-t-none px-10 text-center bg-white dark:bg-neutral-900 dark:text-white text-black leading-7 " ><motion.span className="" >🙏 Thank you for considering my portfolio. I am thrilled at the opportunity to embark on a journey of growth as a Frontend Developer. 🔥</motion.span></p>
 
             </motion.div>
     )
