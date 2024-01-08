@@ -30,7 +30,7 @@ function Projects() {
             <div>
             <p className='hyphens-auto text-left indent-8' lang='de'>This is my personal portfolio website to showcase my skills, projects, and achievements. Design and develop in React.js with fully responsive in all devices. </p>             
             <div className=' flex flex-wrap justify-center md:justify-start gap-3 mt-6 mb-4'>
-              <motion.a className=' bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-700 hover:to-teal-700 font-semibold text-white   rounded-2xl w-fit p-2 px-2  ' whileTap={{ scale: 1.2 }} href="https://github.com/Basicbay/Portfolio-Website" target="_blank" ><span className=''><i className='bx-fw bx bxl-github bx-sm bx-flashing  '></i>Repository</span> </motion.a>
+              <motion.a className=' bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-700 hover:to-teal-700 font-semibold text-white   rounded-2xl w-fit p-2 px-2 select-none  ' whileTap={{ scale: 1.2 }} href="https://github.com/Basicbay/Portfolio-Website" target="_blank" ><span className=''><i className='bx-fw bx bxl-github bx-sm bx-flashing  '></i>Repository</span> </motion.a>
               
             </div>
             </div>
@@ -58,8 +58,8 @@ function Projects() {
             <div>
             <p className='hyphens-auto text-left indent-8' lang='de'>I developed a mobile gaming app using game-making software, and it generates revenue through Google AdMob advertisements.</p>             
             <div className=' flex flex-wrap justify-center md:justify-start gap-3 mt-6 mb-4 '>
-              <motion.a className=' bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-700 hover:to-teal-700 font-semibold text-white   rounded-2xl w-fit p-2 px-2  ' whileTap={{ scale: 1.2 }} href="https://apps.apple.com/th/developer/nattagrit-ridtikhab/id1288981567" target="_blank" ><span className=''><i className='bx-fw bx bxl-apple bx-sm bx-flashing '></i>Apple Store</span> </motion.a>
-              <motion.a className=' bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-700 hover:to-teal-700 font-semibold text-white   rounded-2xl w-fit p-2 px-2  ' whileTap={{ scale: 1.2 }} href="https://play.google.com/store/apps/developer?id=TheBayApps&hl=en_US" target="_blank" ><span className=''><i className='bx-fw bx bxl-play-store bx-sm bx-flashing'></i>Google Play</span> </motion.a>
+              <motion.a className=' bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-700 hover:to-teal-700 font-semibold text-white   rounded-2xl w-fit p-2 px-2 select-none  ' whileTap={{ scale: 1.2 }} href="https://apps.apple.com/th/developer/nattagrit-ridtikhab/id1288981567" target="_blank" ><span className=''><i className='bx-fw bx bxl-apple bx-sm bx-flashing '></i>Apple Store</span> </motion.a>
+              <motion.a className=' bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-700 hover:to-teal-700 font-semibold text-white   rounded-2xl w-fit p-2 px-2 select-none  ' whileTap={{ scale: 1.2 }} href="https://play.google.com/store/apps/developer?id=TheBayApps&hl=en_US" target="_blank" ><span className=''><i className='bx-fw bx bxl-play-store bx-sm bx-flashing'></i>Google Play</span> </motion.a>
             </div>
             </div>
             

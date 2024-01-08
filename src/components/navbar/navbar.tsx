@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 const Navbar = () => {
 
   return (
-    <div className='fixed w-full z-10'>
+    <div className='fixed w-full z-20 '>
       {/* <Banner /> */}
       <div className="navbar bg-white dark:bg-neutral-950
       text-neutral-600 dark:text-neutral-300 z-999 shadow-md ">
