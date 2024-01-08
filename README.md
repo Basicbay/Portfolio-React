@@ -1,2 +1,2 @@
 # Nattagrit Portfolio
-- 🔗 https://nattagrit-portfolio.netlify.app/
+URL : https://nattagrit-portfolio.netlify.app/
