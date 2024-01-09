@@ -38,11 +38,12 @@ function Projects() {
             <div className='card-actions font-semibold mb-1 text-neutral-500 '><p>Technologies:</p></div>
             <div className="card-actions text-white justify-center md:justify-start text-sm   ">
               <div className='   rounded-xl bg-react px-3 '>REACT</div>
-              <div className='   rounded-xl bg-typescript px-3 '>TYPESCRIPT</div> 
-              <div className='   rounded-xl bg-tailwild px-3 '>TAILWIND</div> 
-              <div className='   rounded-xl bg-sky-500 px-3 '>CSS</div>              
+              <div className='   rounded-xl bg-typescript px-3 '>TYPESCRIPT</div>
+              <div className='   rounded-xl bg-green-500 px-3 '>TAILWIND CSS</div>
+              <div className='   rounded-xl bg-teal-500 px-3 '>DAISYUI</div>        
               <div className='   rounded-xl bg-orange-500 px-3 '>HTML</div>
-
+              <div className='   rounded-xl bg-sky-500 px-3 '>CSS</div>   
+              
             </div>
           </div>
         </motion.div>

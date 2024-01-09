@@ -4,6 +4,7 @@ import { SiWebpack } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { motion } from "framer-motion"
 import { FcCommandLine } from "react-icons/fc";
+import { SiDaisyui } from "react-icons/si";
 
 function Skills() {
   return (
@@ -43,6 +44,7 @@ function Skills() {
             <motion.div className='  hidden' whileHover={{ scale: 1.1 }}><i className='bx bx-tada-hover bx-lg ' style={{ color: '#5D6D7E' }}><SiNextdotjs /></i><p>NEXT JS</p></motion.div>
             <motion.div className='  hidden' whileHover={{ scale: 1.1 }}><i className='bx bxl-jquery bx-lg bx-tada-hover' style={{ color: '#0093E7 ' }}></i><p>JQUERY</p></motion.div>
             <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxl-sass bx-lg bx-tada-hover' style={{ color: '#FF6E9C ' }}></i><p>SASS</p></motion.div>
+            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bx-lg bx-tada-hover' style={{ color: '#1BDFA0 ' }}><SiDaisyui /></i><p>DAISYUI</p></motion.div>
           </motion.div>
 
           <motion.div className="font-medium grid grid-cols-4 md:grid-cols-6 text-center gap-x-10 gap-y-7 place-items-center  dark:border-neutral-800 pb-7 "   >
