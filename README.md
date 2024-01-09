@@ -1,5 +1,5 @@
 # Nattagrit Portfolio 👨🏻‍💻
-My Personal Portfolio Website URL : https://nattagrit-portfolio.netlify.app/ \
+My Personal Portfolio Website URL : https://nattagrit-portfolio.netlify.app/ 
 
 Design and develop in : `VITE` `REACT` `TYPESCRIPT` `TAILWIND CSS` `HTML` `CSS` 
 
