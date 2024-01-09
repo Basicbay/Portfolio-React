@@ -31,16 +31,18 @@ function Skills() {
             <div className=' col-span-4 md:col-span-2 justify-self-center md:justify-self-start ' ><pre className='lg:text-lg text-base font-bold  text-left text-neutral-500  '>RESPONSIVE DESIGN</pre></div>
             <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxl-bootstrap bx-lg bx-tada-hover' style={{ color: '#8500ff' }}></i><p>BOOTSTRAP</p></motion.div>
             <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxl-tailwind-css bx-lg bx-tada-hover' style={{ color: '#00DB4C ' }}></i><p>TAILWIND</p></motion.div>
+            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxs-grid-alt bx-lg bx-tada-hover' style={{ color: '#E144E6' }}></i><p>CSSGRID</p></motion.div>
             <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxs-layout bx-lg bx-tada-hover' style={{ color: '#FF2121  ' }}  ></i><p>FLEXBOX</p></motion.div>
-            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxs-grid-alt bx-lg bx-tada-hover' style={{ color: '#E144E6' }}></i><p>GRID</p></motion.div>
+            
           </motion.div>
 
           <motion.div className="font-medium grid grid-cols-4 md:grid-cols-6 text-center gap-x-10 gap-y-7 place-items-center border-b-2 dark:border-neutral-800 pb-7  "  >
             <div className=' col-span-4 md:col-span-2 justify-self-center md:justify-self-start' ><pre className='lg:text-lg text-base font-bold  text-left text-neutral-500 '>FRAMEWORKS & LIBRARIES</pre></div>
-            <motion.div className='  col-start-2 md:col-auto' whileHover={{ scale: 1.1 }}><i className='bx bxl-react bx-lg bx-spin-hover ' style={{ color: '#6D52F7 ' }}></i><p>REACT</p></motion.div>
+            <motion.div className='  col-start-1 md:col-auto' whileHover={{ scale: 1.1 }}><i className='bx bxl-react bx-lg bx-spin-hover ' style={{ color: '#6D52F7 ' }}></i><p>REACT</p></motion.div>
+            <motion.div className='  ' whileHover={{ scale: 1.1 }}><i className='bx bxl-nodejs bx-tada-hover bx-lg ' style={{ color: '#75C433' }}></i><p>NODEJS</p></motion.div>
             <motion.div className='  hidden' whileHover={{ scale: 1.1 }}><i className='bx bx-tada-hover bx-lg ' style={{ color: '#5D6D7E' }}><SiNextdotjs /></i><p>NEXT JS</p></motion.div>
             <motion.div className='  hidden' whileHover={{ scale: 1.1 }}><i className='bx bxl-jquery bx-lg bx-tada-hover' style={{ color: '#0093E7 ' }}></i><p>JQUERY</p></motion.div>
-            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxl-sass bx-lg bx-tada-hover' style={{ color: '#DB5089    ' }}></i><p>SASS</p></motion.div>
+            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxl-sass bx-lg bx-tada-hover' style={{ color: '#FF6E9C ' }}></i><p>SASS</p></motion.div>
           </motion.div>
 
           <motion.div className="font-medium grid grid-cols-4 md:grid-cols-6 text-center gap-x-10 gap-y-7 place-items-center  dark:border-neutral-800 pb-7 "   >
