@@ -6,4 +6,4 @@ URL : https://nattagrit-portfolio.netlify.app/
 
 ## Design and develop in
 
-`Vite``React``Typescript`
+`Vite` `React` `Typescript`
