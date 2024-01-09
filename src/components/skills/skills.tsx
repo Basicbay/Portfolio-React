@@ -43,7 +43,7 @@ function Skills() {
             <motion.div className='  ' whileHover={{ scale: 1.1 }}><i className='bx bxl-nodejs bx-tada-hover bx-lg ' style={{ color: '#75C433' }}></i><p>NODEJS</p></motion.div>
             <motion.div className='  hidden' whileHover={{ scale: 1.1 }}><i className='bx bx-tada-hover bx-lg ' style={{ color: '#5D6D7E' }}><SiNextdotjs /></i><p>NEXT JS</p></motion.div>
             <motion.div className='  hidden' whileHover={{ scale: 1.1 }}><i className='bx bxl-jquery bx-lg bx-tada-hover' style={{ color: '#0093E7 ' }}></i><p>JQUERY</p></motion.div>
-            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxl-sass bx-lg bx-tada-hover' style={{ color: '#FF6E9C ' }}></i><p>SASS</p></motion.div>
+            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxl-sass bx-lg bx-tada-hover' style={{ color: '#FF6AAB ' }}></i><p>SASS</p></motion.div>
             <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bx-lg bx-tada-hover' style={{ color: '#1BDFA0 ' }}><SiDaisyui /></i><p>DAISYUI</p></motion.div>
           </motion.div>
 
