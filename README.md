@@ -6,4 +6,4 @@ URL : https://nattagrit-portfolio.netlify.app/
 
 ## Design and develop in
 
-`VITE` `REACT` `TYPESCRIPT` `TAILWIND CSS` 
+`VITE` `REACT` `TYPESCRIPT` `TAILWIND CSS` `HTML` `CSS`
