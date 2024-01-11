@@ -1,7 +1,7 @@
 import Pic from './image/me.jpg'
 import Rsu from './image/rsuLogo.png'
 import { motion } from "framer-motion"
-//import resume from './pdf/resume.pdf'
+import resume from './pdf/Nattagrit Resume.pdf'
 import { FcGraduationCap } from "react-icons/fc";
 import { FcIdea } from "react-icons/fc";
 import { BsFillEmojiSmileFill } from "react-icons/bs";
@@ -52,7 +52,7 @@ function About() {
 
           </div>
 
-        <motion.a href={''} download="Resume" target="_blank" className='h-fit mt-6 my-5 bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-700 hover:to-teal-700 font-semibold text-white  rounded-2xl w-fit p-3 px-5 z-10 select-none ' whileTap={{ scale: 1.1 }}><i className='bx-fw bx bxs-download bx-sm bx-fade-up'></i>Download Resume</motion.a>
+        <motion.a href={resume} download="Resume" target="_blank" className='h-fit mt-6 my-5 bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-700 hover:to-teal-700 font-semibold text-white  rounded-2xl w-fit p-3 px-5 z-10 select-none ' whileTap={{ scale: 1.1 }}><i className='bx-fw bx bxs-download bx-sm bx-fade-up'></i>Download Resume</motion.a>
 
         </motion.div>
 
