@@ -1,6 +1,9 @@
 # Nattagrit Portfolio 👨🏻‍💻
-My Personal Portfolio Website URL : https://nattagrit-portfolio.netlify.app/ 
+My Portfolio Website:
+https://nattagrit-portfolio.netlify.app/
 
-Design and develop in : `VITE` `REACT` `TYPESCRIPT` `TAILWIND CSS` `DAISYUI` `HTML` `CSS` 
+Designed and Developed Using: `Vite` `React` `TypeScript` `Tailwind CSS` `Daisy UI` `HTML` `CSS` 
 
-![responsive_xs2](https://github.com/Basicbay/Portfolio-Website/assets/151770227/e2a4d506-08b8-4807-810d-7de8ec426e88)
+![image portfolio web](https://github.com/Basicbay/Portfolio-Website/assets/151770227/fe948dcc-2f4b-4408-b2fb-2c49c9f87d65)
+
+
