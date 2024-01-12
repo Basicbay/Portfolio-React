@@ -1,7 +1,7 @@
 import Pic from './image/me.jpg'
 import Rsu from './image/rsuLogo.png'
 import { motion } from "framer-motion"
-import resume from './pdf/Nattagrit Resume.pdf'
+import Nattagrit_Resume from './pdf/Nattagrit Resume.pdf'
 import { FcGraduationCap } from "react-icons/fc";
 import { FcIdea } from "react-icons/fc";
 import { BsFillEmojiSmileFill } from "react-icons/bs";
@@ -25,11 +25,11 @@ function About() {
     </svg>
 </div>
 
-          <img className="rounded-full w-9/12 my-5 z-10  " src={Pic} alt=""></img>
+          <img className="rounded-full w-9/12 my-5 z-10 " src={Pic} alt=""></img>
 
           <motion.div className='bg-clip-text text-center text-transparent bg-gradient-to-r from-blue-500 to-teal-500 z-10  ' >
             <p className=' text-2xl md:text-xl lg:text-2xl xl:text-3xl  font-black mb-1 dark:text-white text-black tracking-wide ' >Nattagrit Ridtikhab</p>
-            <p className=' text-2xl md:text-xl lg:text-2xl   font-black mb-5 tracking-wide '>Creative Front-End<br className='xl:hidden'/> Developer</p>
+            <p className=' text-2xl md:text-xl lg:text-2xl   font-black mb-5 tracking-wide '>Creative Frontend<br className='xl:hidden'/> Developer</p>
             <p className="p-0.5 bg-gradient-to-r mb-5"></p>
           </motion.div>
 
@@ -52,7 +52,7 @@ function About() {
 
           </div>
 
-        <motion.a href={resume} download="Resume" target="_blank" className='h-fit mt-6 my-5 bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-700 hover:to-teal-700 font-semibold text-white  rounded-2xl w-fit p-3 px-5 z-10 select-none ' whileTap={{ scale: 1.1 }}><i className='bx-fw bx bxs-download bx-sm bx-fade-up'></i>Download Resume</motion.a>
+        <motion.a href={Nattagrit_Resume} download="Resume" target="_blank" className='h-fit mt-6 my-5 bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-700 hover:to-teal-700 font-semibold text-white  rounded-2xl w-fit p-3 px-5 z-10 select-none ' whileTap={{ scale: 1.1 }}><i className='bx-fw bx bxs-download bx-sm bx-fade-up'></i>Download Resume</motion.a>
 
         </motion.div>
 

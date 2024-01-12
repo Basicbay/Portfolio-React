@@ -1,8 +1,7 @@
 
-import responsive from './image/responsive_xs2.png'
+import responsive from './image/responsive.png'
 import app from './image/app_xs.png'
 import { FcOpenedFolder } from "react-icons/fc";
-import './project.css'
 import { motion } from "framer-motion"
 
 
@@ -36,13 +35,13 @@ function Projects() {
             </div>
             
             <div className='card-actions font-semibold mb-1 text-neutral-500 '><p>Technologies:</p></div>
-            <div className="card-actions text-white justify-center md:justify-start text-sm   ">
-              <div className='   rounded-xl bg-react px-3 '>REACT</div>
-              <div className='   rounded-xl bg-typescript px-3 '>TYPESCRIPT</div>
-              <div className='   rounded-xl bg-green-500 px-3 '>TAILWIND CSS</div>
-              <div className='   rounded-xl bg-teal-500 px-3 '>DAISYUI</div>        
-              <div className='   rounded-xl bg-orange-500 px-3 '>HTML</div>
-              <div className='   rounded-xl bg-sky-500 px-3 '>CSS</div>   
+            <div className="card-actions text-black font-normal justify-center md:justify-start text-sm   ">
+              <div className='   rounded-xl bg-neutral-200 px-3 '>React</div>
+              <div className='   rounded-xl bg-neutral-200 px-3 '>TypeScript</div>
+              <div className='   rounded-xl bg-neutral-200 px-3 '>Tailwind CSS</div>
+              <div className='   rounded-xl bg-neutral-200 px-3 '>Daisy UI</div>        
+              <div className='   rounded-xl bg-neutral-200 px-3 '>HTML</div>
+              <div className='   rounded-xl bg-neutral-200 px-3 '>CSS</div>   
               
             </div>
           </div>
@@ -65,11 +64,11 @@ function Projects() {
             </div>
             
             <div className='card-actions font-semibold mb-1 text-neutral-500  '><p>Technologies:</p></div>
-            <div className="card-actions text-white justify-center md:justify-start text-sm">
-              <div className='   rounded-xl bg-slate-500 px-3   '>CONSTRUCT 3</div>
-              <div className='   rounded-xl bg-red-500 px-3 '>ADMOB</div>
-              <div className='   rounded-xl bg-amber-500 px-3 '>JAVASCRIPT</div>
-              <div className='   rounded-xl bg-blue-500 px-3 '>PHOTOSHOP</div>
+            <div className="card-actions text-black font-normal justify-center md:justify-start text-sm">
+              <div className='   rounded-xl bg-neutral-200 px-3   '>Construct 3</div>
+              <div className='   rounded-xl bg-neutral-200 px-3 '>Google Admob</div>
+              <div className='   rounded-xl bg-neutral-200 px-3 '>JavaScript</div>
+              <div className='   rounded-xl bg-neutral-200 px-3 '>Photoshop</div>
 
               
             </div>

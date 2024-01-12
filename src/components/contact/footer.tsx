@@ -15,7 +15,7 @@ function Footer() {
 
                     <aside className="justify-items-center self-center  m-auto lg:mr-20  ">
                         <img className=" w-40 m-auto " src={engineer} alt="Shoes" />
-                        <p className="text-center font-semibold  tracking-wide leading-8 ">Nattagrit Ridtikhab (Bay)<br /><span className=" badge badge-outline bg p-3 text-blue-400 font-bold tracking-wider text-md badge-lg bx-flashing  ">Front-End Developer</span></p>
+                        <p className="text-center font-semibold  tracking-wide leading-8 ">Nattagrit Ridtikhab (Bay)<br /><span className=" badge badge-outline bg p-3 text-blue-400 font-bold tracking-wider text-md badge-lg bx-flashing  ">Frontend Developer</span></p>
                     </aside>
 
                     <nav className=" self-end ">
