@@ -1,5 +1,5 @@
 # Nattagrit Portfolio 👨🏻‍💻
-My Personal Portfolio Website:
+My Portfolio Website:
 https://nattagrit-portfolio.netlify.app/
 
 Designed and Developed Using: `Vite` `React` `TypeScript` `Tailwind CSS` `Daisy UI` `HTML` `CSS` 
