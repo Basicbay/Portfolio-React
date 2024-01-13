@@ -2,6 +2,8 @@
 My Portfolio Website: \
 https://nattagrit-portfolio.netlify.app/
 
+This is my personal portfolio website to showcase my skills, projects, and resume. Design and develop in React.js with fully responsive in all devices.
+
 Designed and Developed Using: \
 `Vite` `React.js` `TypeScript` `Tailwind CSS` `Daisy UI` `HTML` `CSS` 
 
