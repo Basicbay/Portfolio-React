@@ -1,7 +1,7 @@
 import Pic from './image/me.jpg'
 import Rsu from './image/rsuLogo.png'
 import { motion } from "framer-motion"
-import Nattagrit_Resume from './pdf/Nattagrit Resume.pdf'
+import Nattagrit_Resume from './pdf/Nattagrit Resume for web.pdf'
 import { FcGraduationCap } from "react-icons/fc";
 import { FcIdea } from "react-icons/fc";
 import { BsFillEmojiSmileFill } from "react-icons/bs";
@@ -35,20 +35,20 @@ function About() {
 
           <div className='flex gap-5  justify-center md:justify-start z-10'>
 
-            <motion.div className='hover:text-blue-500  tooltip' data-tip="Copy Phone Number" onClick={() => {
+            <motion.div className=' hover:text-blue-500  tooltip' data-tip="Copy Phone Number" onClick={() => {
               navigator.clipboard.writeText('0867499315');
             }} whileTap={{ scale: 1.2 }} >
               <i className='bx bxs-phone bx-md cursor-pointer  '></i>
             </motion.div>
 
-            <motion.a className='hover:text-blue-500  tooltip' data-tip="Send Email" href="mailto:Keepatbayy@gmail.com" target="_blank"
+            <motion.a className=' hover:text-blue-500  tooltip' data-tip="Send Email" href="mailto:Keepatbayy@gmail.com" target="_blank"
              whileTap={{ scale: 1.2 }}>
               <i className='bx bx-envelope bx-md  cursor-pointer  '></i>
             </motion.a>
 
-            <motion.div className=' hover:text-blue-500 tooltip' data-tip="Linked" whileTap={{ scale: 1.2 }} ><a href="https://www.linkedin.com/in/nattagrit-ridtikhab-83894b2a0/" target="_blank"><i className='bx bxl-linkedin bx-md  ' ></i></a></motion.div>
+            <motion.div className='  hover:text-blue-500 tooltip' data-tip="Linked" whileTap={{ scale: 1.2 }} ><a href="https://www.linkedin.com/in/nattagrit-ridtikhab-83894b2a0/" target="_blank"><i className='bx bxl-linkedin bx-md  ' ></i></a></motion.div>
 
-            <motion.div className=' hover:text-blue-500 tooltip' data-tip="Github" whileTap={{ scale: 1.2 }} ><a href="https://github.com/Basicbay" target="_blank"><i className='bx bxl-github bx-md  '></i></a></motion.div>
+            <motion.div className='  hover:text-blue-500 tooltip' data-tip="Github" whileTap={{ scale: 1.2 }} ><a href="https://github.com/Basicbay" target="_blank"><i className='bx bxl-github bx-md  '></i></a></motion.div>
 
           </div>
 

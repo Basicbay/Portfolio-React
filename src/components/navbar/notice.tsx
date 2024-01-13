@@ -23,7 +23,7 @@ function Notice() {
                 const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
                 window.scrollTo({ top: y, behavior: 'smooth' });
               }}>
-                <motion.button className=' bg-white text-black w-60 font-bold rounded-2xl mt-2 p-1 text-center hover:text-blue-500 select-none ' whileTap={{ scale: 1.1 }}>
+                <motion.button className=' bg-white text-black w-60 font-bold rounded-2xl mt-2 p-1 text-center  hover:text-blue-500 select-none ' whileTap={{ scale: 1.1 }}>
               Hire Me<i className='bx-fw bx bx-right-arrow-alt bx-fade-right '></i>
               </motion.button>
             </HashLink>
