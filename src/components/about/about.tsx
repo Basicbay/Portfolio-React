@@ -1,7 +1,7 @@
 import Pic from './image/me.jpg'
 import Rsu from './image/rsuLogo.png'
 import { motion } from "framer-motion"
-import Nattagrit_Resume from './pdf/Nattagrit Resume for web.pdf'
+import Nattagrit_Resume from './pdf/Nattagrit Resume.pdf'
 import { FcGraduationCap } from "react-icons/fc";
 import { FcIdea } from "react-icons/fc";
 import { BsFillEmojiSmileFill } from "react-icons/bs";
@@ -35,20 +35,20 @@ function About() {
 
           <div className='flex gap-5  justify-center md:justify-start z-10'>
 
-            <motion.div className=' hover:text-blue-500  tooltip' data-tip="Copy Phone Number" onClick={() => {
+            <motion.div className=' hover:text-teal-500  tooltip' data-tip="Copy Phone Number" onClick={() => {
               navigator.clipboard.writeText('0867499315');
-            }} whileTap={{ scale: 1.2 }} >
+            }} whileTap={{ scale: 1.1 }} >
               <i className='bx bxs-phone bx-md cursor-pointer  '></i>
             </motion.div>
 
-            <motion.a className=' hover:text-blue-500  tooltip' data-tip="Send Email" href="mailto:Keepatbayy@gmail.com" target="_blank"
-             whileTap={{ scale: 1.2 }}>
+            <motion.a className=' hover:text-teal-500  tooltip' data-tip="Send Email" href="mailto:Keepatbayy@gmail.com" target="_blank"
+             whileTap={{ scale: 1.1 }}>
               <i className='bx bx-envelope bx-md  cursor-pointer  '></i>
             </motion.a>
 
-            <motion.div className='  hover:text-blue-500 tooltip' data-tip="Linked" whileTap={{ scale: 1.2 }} ><a href="https://www.linkedin.com/in/nattagrit-ridtikhab-83894b2a0/" target="_blank"><i className='bx bxl-linkedin bx-md  ' ></i></a></motion.div>
+            <motion.div className='  hover:text-teal-500 tooltip' data-tip="Linked" whileTap={{ scale: 1.1 }} ><a href="https://www.linkedin.com/in/nattagrit-ridtikhab-83894b2a0/" target="_blank"><i className='bx bxl-linkedin bx-md  ' ></i></a></motion.div>
 
-            <motion.div className='  hover:text-blue-500 tooltip' data-tip="Github" whileTap={{ scale: 1.2 }} ><a href="https://github.com/Basicbay" target="_blank"><i className='bx bxl-github bx-md  '></i></a></motion.div>
+            <motion.div className='  hover:text-teal-500 tooltip' data-tip="Github" whileTap={{ scale: 1.1 }} ><a href="https://github.com/Basicbay" target="_blank"><i className='bx bxl-github bx-md  '></i></a></motion.div>
 
           </div>
 
@@ -67,10 +67,10 @@ function About() {
 </div>
 
           <motion.div  className='z-10'>
-            <p className=' text-2xl font-bold gap-2 my-5 flex self-center md:self-start place-items-center  '><i className='bx text-blue-500 bx-sm '><BsFillEmojiSmileFill /></i>About Me ...</p>
-            <p className=' indent-8 mb-3 '><span className=' text-xl'> Hello, </span> I'm Nattagrit Ridtikhab (Bay), a passionate and aspiring <span className=' font-semibold text-md text-teal-500'>Frontend Developer</span> with a keen interest in creating visually appealing and <span className=' text-md font-semibold text-sky-500   '>User-Friendly Interface Websites.</span> 🌈</p>
-            <p className='mb-3'>Despite my limited professional experience, I possess a strong foundation in <span className=' font-semibold text-md '> HTML, JavaScript, CSS, and the React.js Framework.</span> 💪🏻</p>
-            <p className='mb-3'>My journey in the world of web development is driven by a relentless curiosity and a commitment to <span className=' font-semibold text-md text-red-500'>Continuous Learning.</span> 🚀</p>
+            <p className=' text-2xl font-bold gap-2 my-5 flex self-center md:self-start place-items-center  '><i className='bx text-white bx-sm '><BsFillEmojiSmileFill /></i>About Me ...</p>
+            <p className=' indent-8 mb-3 '><span className=' text-xl'> Hello, </span> I'm Nattagrit Ridtikhab (Bay), a passionate and aspiring <span className=' font-semibold text-md text-teal-500'>Frontend Developer</span> with a keen interest in creating visually appealing and <span className=' text-md font-semibold text-blue-400   '>User-Friendly Interface Websites.</span></p>
+            <p className='mb-3'>Despite my limited professional experience, I possess a strong foundation in <span className=' font-semibold text-md '> HTML, JavaScript, CSS, and the React.js Framework.</span> </p>
+            <p className='mb-3'>My journey in the world of web development is driven by a relentless curiosity and a commitment to <span className=' font-semibold text-md text-slate-400'> Continuous Learning.</span> </p>
           </motion.div>
 
 

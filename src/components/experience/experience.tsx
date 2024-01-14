@@ -21,7 +21,7 @@ function Experience() {
 
                             <p className=' text-2xl  font-bold mb-2  '>Mobile Game Developer <span className=" text-teal-500">(Work)</span></p>
                             <p className=' font-semibold mb-5'> <div className="badge badge-neutral badge-md ">Present</div> <span className=" text-neutral-500"><i className='bx bxs-map'></i>Self-employed / App Store , Google Play</span></p>
-                            <p className="hyphens-auto text-left indent-8 mb-2  ">Developed gaming apps using game-making software, each designed to generate revenue through Google AdMob advertisements. Apps available on App Store and Google Play.</p>
+                            <p className="hyphens-auto text-left indent-8 mb-2  ">Developed gaming apps using game-making software, each designed to generate revenue through Google AdMob advertisements.</p>
                             {/*<p className=" text-left"><span className=" font-semibold">Skills : </span>Construct 3 , JavaScript , Google Admob , Photoshop </p>*/}
                             
              <div className="flex flex-wrap gap-1 text-black dark:text-white font-normal justify-start text-sm place-items-center ">
@@ -49,9 +49,9 @@ function Experience() {
              <p className=" font-semibold text-base">Skills : </p>
               <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>Java</div>
               <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>Spring Boot</div>
+              <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>MySQL</div>  
               <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>REST API</div>
               <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>JDBC</div>  
-              <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>MySQL</div>  
             </div>
 
                             <div className="border-t-2 border-slate-200 dark:border-neutral-700 shadow-lg ... my-5 hidden"></div>
@@ -91,10 +91,11 @@ function Experience() {
              <p className=" font-semibold text-base">Skills : </p>
               <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>ASP.NET</div>
               <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>C#</div>
+              <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>SQL Server</div>
               <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>HTML</div>
               <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>CSS</div>
               <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>JavaScript</div>
-              <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>SQL Server</div>
+
             </div>
 
                             <div className="border-t-2 border-slate-200 dark:border-neutral-700 shadow-lg ... my-5 hidden"></div>
