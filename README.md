@@ -6,8 +6,8 @@ https://nattagrit-portfolio.netlify.app/
 - React.js
 - TypeScript
 - JavaScript
-- `HTML`
-- `CSS`
+- HTML
+- CSS
 
 **Build and Deployment:**
 - `Vite`
