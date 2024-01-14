@@ -2,16 +2,16 @@
 My Portfolio Website :\
 https://nattagrit-portfolio.netlify.app/
 
-Designed and Developed Using :\
+**Designed and Developed Using :\
 `Vite` `React.js` `TypeScript` `TailwindCSS` `DaisyUI` `HTML` `CSS` 
 
 
 **Front-end Development:**
-- React.js
-- TypeScript
-- JavaScript
-- HTML
-- CSS
+- `React.js`
+- `TypeScript`
+- `JavaScript`
+- `HTML`
+- `CSS`
 
 **Build and Deployment:**
 - Vite
