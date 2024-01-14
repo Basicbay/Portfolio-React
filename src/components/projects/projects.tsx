@@ -20,11 +20,12 @@ function Projects() {
         <motion.div className="card w-full shadow-md bg-white dark:bg-neutral-900 text-center md:text-left " whileHover={{ scale: 1.02 }}>
           <figure><img src={responsive} alt="Shoes" /></figure>
           <div className="card-body">
-            <h2 className="card-title text-2xl font-bold self-center md:self-start mb-5 ">
+            <h2 className="card-title text-2xl font-bold self-center md:self-start ">
               Portfolio Website
               <div className="badge badge-secondary hidden ">Project</div>
             </h2>
-
+            <p className='tracking-tight'>Responsive design for all devices.</p>
+            
            
             <div className=' flex flex-wrap justify-center md:justify-start gap-3 '>
               <motion.a className=' bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-700 hover:to-teal-700 font-semibold text-white   rounded-2xl w-fit p-2 px-2 select-none  ' whileTap={{ scale: 1.1 }} href="https://github.com/Basicbay/Portfolio-Website" target="_blank" ><span className=''><i className='bx-fw bx bxl-github bx-sm bx-flashing  '></i>Repository</span> </motion.a>
@@ -47,10 +48,12 @@ function Projects() {
         <motion.div className="card w-fill shadow-md bg-white dark:bg-neutral-900 text-center md:text-left  " whileHover={{ scale: 1.02 }}>
           <figure><img src={app} alt="Shoes" /></figure>
           <div className="card-body">
-            <h2 className="card-title text-2xl font-bold self-center md:self-start mb-5">
+            <h2 className="card-title text-2xl font-bold self-center md:self-start ">
             Mobile Game Apps
-              <div className="badge badge-secondary hidden ">For Work</div>
+              <div className="badge badge-primary hidden ">Work</div>
             </h2>
+            More than 50 apps available in : 
+            
            
             <div className=' flex flex-wrap justify-center md:justify-start gap-2  '>
               <motion.a className=' bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-700 hover:to-teal-700 font-semibold text-white   rounded-2xl w-fit p-2 px-2 select-none  ' whileTap={{ scale: 1.1 }} href="https://apps.apple.com/th/developer/nattagrit-ridtikhab/id1288981567" target="_blank" ><span className=''><i className='bx-fw bx bxl-apple bx-sm bx-flashing '></i>Apple Store</span> </motion.a>
