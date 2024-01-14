@@ -3,9 +3,9 @@
 https://nattagrit-portfolio.netlify.app/
 
 **Front-end Development:**
-- `React.js`
-- `TypeScript`
-- `JavaScript`
+- React.js
+- TypeScript
+- JavaScript
 - `HTML`
 - `CSS`
 
