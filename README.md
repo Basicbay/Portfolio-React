@@ -3,11 +3,7 @@
 https://nattagrit-portfolio.netlify.app/
 
 **Front-end Development:**
-- React.js
-- TypeScript
-- JavaScript
-- HTML
-- CSS
+`React.js``TypeScript``JavaScript``HTML``CSS`
 
 **Build and Deployment:**
 - `Vite`
