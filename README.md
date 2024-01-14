@@ -1,8 +1,6 @@
-# Nattagrit Portfolio 👨🏻‍💻
+**Nattagrit Portfolio 👨🏻‍💻**
 My Portfolio Website :\
 https://nattagrit-portfolio.netlify.app/
-
-**Designed and Developed Using :**
 
 **Front-end Development:**
 - `React.js`
