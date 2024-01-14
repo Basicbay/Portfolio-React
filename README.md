@@ -14,8 +14,8 @@ https://nattagrit-portfolio.netlify.app/
 - `CSS`
 
 **Build and Deployment:**
-- Vite
-- Netlify (for deployment)
+- `Vite`
+- `Netlify` (for deployment)
 
 **Styling:**
 - TailwindCSS
