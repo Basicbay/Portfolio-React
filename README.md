@@ -1,5 +1,5 @@
 ## Nattagrit Portfolio 👨🏻‍💻
-**My Portfolio Website :\**
+**My Portfolio Website :**
 https://nattagrit-portfolio.netlify.app/
 
 **Front-end Development:**
