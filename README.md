@@ -1,16 +1,20 @@
 ## Nattagrit Portfolio 👨🏻‍💻
 **My Portfolio Website :**\
 https://nattagrit-portfolio.netlify.app/
+
 **Front-end Development:**
 - React.js
 - TypeScript
 - JavaScript
 - HTML
 - CSS
+  
 **Styling:**
 - TailwindCSS
+  
 **UI Component Library:**
 - DaisyUI
+  
 **Build and Deployment:**
 - Vite
 - Netlify (for deployment)
