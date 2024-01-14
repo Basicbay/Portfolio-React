@@ -6,10 +6,10 @@ https://nattagrit-portfolio.netlify.app/
 `React.js` `TypeScript` `JavaScript` `HTML` `CSS`
   
 **Styling:**\
-`TailwindCSS`
+`Tailwind CSS`
   
 **UI Component Library:**\
-`DaisyUI`
+`Daisy UI`
   
 **Build and Deployment:**\
 `Vite` `Netlify (for deployment)`
