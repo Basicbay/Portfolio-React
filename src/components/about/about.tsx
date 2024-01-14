@@ -35,24 +35,24 @@ function About() {
 
           <div className='flex gap-5  justify-center md:justify-start z-10'>
 
-            <motion.div className=' hover:text-teal-500  tooltip' data-tip="Copy Phone Number" onClick={() => {
+            <motion.div className=' hover:text-neutral-500  tooltip' data-tip="Copy Phone Number" onClick={() => {
               navigator.clipboard.writeText('0867499315');
             }} whileTap={{ scale: 1.1 }} >
               <i className='bx bxs-phone bx-md cursor-pointer  '></i>
             </motion.div>
 
-            <motion.a className=' hover:text-teal-500  tooltip' data-tip="Send Email" href="mailto:Keepatbayy@gmail.com" target="_blank"
+            <motion.a className=' hover:text-neutral-500  tooltip' data-tip="Send Email" href="mailto:Keepatbayy@gmail.com" target="_blank"
              whileTap={{ scale: 1.1 }}>
               <i className='bx bx-envelope bx-md  cursor-pointer  '></i>
             </motion.a>
 
-            <motion.div className='  hover:text-teal-500 tooltip' data-tip="Linked" whileTap={{ scale: 1.1 }} ><a href="https://www.linkedin.com/in/nattagrit-ridtikhab-83894b2a0/" target="_blank"><i className='bx bxl-linkedin bx-md  ' ></i></a></motion.div>
+            <motion.div className='  hover:text-neutral-500 tooltip' data-tip="Linked" whileTap={{ scale: 1.1 }} ><a href="https://www.linkedin.com/in/nattagrit-ridtikhab-83894b2a0/" target="_blank"><i className='bx bxl-linkedin bx-md  ' ></i></a></motion.div>
 
-            <motion.div className='  hover:text-teal-500 tooltip' data-tip="Github" whileTap={{ scale: 1.1 }} ><a href="https://github.com/Basicbay" target="_blank"><i className='bx bxl-github bx-md  '></i></a></motion.div>
+            <motion.div className='  hover:text-neutral-500 tooltip' data-tip="Github" whileTap={{ scale: 1.1 }} ><a href="https://github.com/Basicbay" target="_blank"><i className='bx bxl-github bx-md  '></i></a></motion.div>
 
           </div>
 
-        <motion.a href={Nattagrit_Resume} download="Resume" target="_blank" className='h-fit mt-6 my-5 bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-700 hover:to-teal-700 font-semibold text-white  rounded-2xl w-fit p-3 px-5 z-10 select-none ' whileTap={{ scale: 1.1 }}><i className='bx-fw bx bxs-download bx-sm bx-fade-up'></i>Download Resume</motion.a>
+        <motion.a href={Nattagrit_Resume} download="Resume" target="_blank" className='h-fit mt-6 my-5 bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-700 hover:to-teal-700 font-semibold text-white  rounded-full w-fit p-3 px-5 z-10 select-none ' whileTap={{ scale: 1.1 }}><i className='bx-fw bx bxs-download bx-sm bx-fade-up'></i>Download Resume</motion.a>
 
         </motion.div>
 
@@ -67,10 +67,10 @@ function About() {
 </div>
 
           <motion.div  className='z-10'>
-            <p className=' text-2xl font-bold gap-2 my-5 flex self-center md:self-start place-items-center  '><i className='bx text-slate-400 bx-sm '><BsFillEmojiSmileFill /></i>About Me ...</p>
-            <p className=' indent-8 mb-3 '><span className=' text-xl'> Hello, </span> I'm Nattagrit Ridtikhab (Bay), a passionate and aspiring <span className=' font-semibold text-md text-teal-500'>Frontend Developer</span> with a keen interest in creating visually appealing and <span className=' text-md font-semibold text-slate-400   '>User-Friendly Interface Websites.</span></p>
+            <p className=' text-2xl font-bold gap-2 my-5 flex self-center md:self-start place-items-center  '><i className='bx text-teal-500 bx-sm '><BsFillEmojiSmileFill /></i>About Me ...</p>
+            <p className=' indent-8 mb-3 '><span className=' text-xl'> Hello, </span> I'm Nattagrit Ridtikhab (Bay), a passionate and aspiring <span className=' font-semibold text-md text-teal-500'>Frontend Developer</span> with a keen interest in creating visually appealing and <span className=' text-md font-semibold text-neutral-500   '>User-Friendly Interface Websites.</span></p>
             <p className='mb-3'>Despite my limited professional experience, I possess a strong foundation in <span className=' font-semibold text-md '> HTML, JavaScript, CSS, and the React.js Framework.</span> </p>
-            <p className='mb-3'>My journey in the world of web development is driven by a relentless curiosity and a commitment to <span className=' font-semibold text-md text-slate-400'> Continuous Learning.</span> </p>
+            <p className='mb-3'>My journey in the world of web development is driven by a relentless curiosity and a commitment to <span className=' font-semibold text-md text-neutral-500'> Continuous Learning.</span> </p>
           </motion.div>
 
 
@@ -86,10 +86,10 @@ function About() {
           <motion.div  className='z-10'>
             <p className=' text-2xl font-bold gap-2 my-5 mt-7 flex self-center md:self-start place-items-top '> <i className='bx bx-sm '><FcIdea /></i><span className=''>Soft Skills</span></p>
             <div className='self-center md:self-start leading-relaxed '>
-              <p className=''><i className='bx-fw bx bx-check bx-sm' style={{ color: '#E8B20B' }}></i>Team Collaboration</p>
-              <p className=''><i className='bx-fw bx bx-check bx-sm' style={{ color: '#E8B20B' }}></i>Adaptability</p>
-              <p className=''><i className='bx-fw bx bx-check bx-sm' style={{ color: '#E8B20B' }}></i>Problem-Solving</p>
-              <p className=''><i className='bx-fw bx bx-check bx-sm' style={{ color: '#E8B20B' }}></i>Quick Learner</p>
+              <p className=''><i className='bx-fw bx bx-check bx-sm text-teal-500 ' style={{ color: '' }}></i>Team Collaboration</p>
+              <p className=''><i className='bx-fw bx bx-check bx-sm text-teal-500 ' style={{ color: '' }}></i>Adaptability</p>
+              <p className=''><i className='bx-fw bx bx-check bx-sm text-teal-500 ' style={{ color: '' }}></i>Problem-Solving</p>
+              <p className=''><i className='bx-fw bx bx-check bx-sm text-teal-500 ' style={{ color: '' }}></i>Quick Learner</p>
             </div>
           </motion.div>
 
