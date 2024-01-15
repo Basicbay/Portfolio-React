@@ -13,9 +13,9 @@ function Experience() {
                     <p className="text-4xl gap-2 flex justify-center"><i className="" style={{ color: '#24A570  ' }}><PiPuzzlePieceFill /></i>Experience</p>
                 </div>
 
-                <div className='text-center md:text-left dark:text-white p-10 md:px-20 flex flex-col gap-5 m-auto w-auto '>
+                <div className='text-center md:text-left dark:text-white p-10 md:px-20 grid gap-5 m-auto w-auto '>
 
-                        <motion.div className="md:flex gap-8 pb-5 border-b-[1px] dark:border-neutral-800  " >
+                    <motion.div className="md:flex gap-8 pb-5 border-b-[1px] dark:border-neutral-800  " >
 
                         <div className="">
 
@@ -23,14 +23,14 @@ function Experience() {
                             <p className=' font-semibold mb-5'> <div className="badge badge-neutral badge-md ">Present</div> <span className=" text-neutral-500"><i className='bx bxs-map'></i>Self-employed / App Store , Google Play</span></p>
                             <p className="hyphens-auto text-left indent-8 mb-2  ">Developed gaming apps using game-making software, each designed to generate revenue through Google AdMob advertisements.</p>
                             {/*<p className=" text-left"><span className=" font-semibold">Skills : </span>Construct 3 , JavaScript , Google Admob , Photoshop </p>*/}
-                            
-             <div className="flex flex-wrap gap-1 text-black dark:text-white font-normal justify-start text-sm place-items-center ">
-             <p className=" font-semibold text-base">Skills : </p>
-              <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>Construct 3</div>
-              <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>Google Admob</div>
-              <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>JavaScript</div>
-              <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>Photoshop</div>  
-            </div>
+
+                            <div className="flex flex-wrap gap-1 text-black dark:text-white font-normal justify-start text-sm place-items-center ">
+                                <p className=" font-semibold text-base">Skills : </p>
+                                <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>Construct 3</div>
+                                <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>Google Admob</div>
+                                <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>JavaScript</div>
+                                <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>Photoshop</div>
+                            </div>
 
                             <div className="border-t-2 border-slate-200 dark:border-neutral-700 shadow-lg ... my-5 hidden"></div>
                         </div>
@@ -46,13 +46,13 @@ function Experience() {
                             {/*<p className=" text-left"><span className=" font-semibold">Skills : </span>Java , Spring Boot , REST API , JDBC , MySQL </p>*/}
 
                             <div className="flex flex-wrap gap-1 text-black dark:text-white font-normal justify-start text-sm place-items-center ">
-             <p className=" font-semibold text-base">Skills : </p>
-              <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>Java</div>
-              <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>Spring Boot</div>
-              <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>MySQL</div>  
-              <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>REST API</div>
-              <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>JDBC</div>  
-            </div>
+                                <p className=" font-semibold text-base">Skills : </p>
+                                <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>Java</div>
+                                <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>Spring Boot</div>
+                                <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>MySQL</div>
+                                <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>REST API</div>
+                                <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>JDBC</div>
+                            </div>
 
                             <div className="border-t-2 border-slate-200 dark:border-neutral-700 shadow-lg ... my-5 hidden"></div>
                         </div>
@@ -68,17 +68,17 @@ function Experience() {
                             {/*<p className=" text-left"><span className=" font-semibold">Skills : </span>OpenCV , C++ , Robot Operating System (ROS)</p>*/}
 
                             <div className="flex flex-wrap gap-1 text-black dark:text-white font-normal justify-start text-sm place-items-center ">
-             <p className=" font-semibold text-base">Skills : </p>
-              <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>Open CV</div>
-              <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>C++</div>
-              <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>ROS</div>
-            </div>
-                            
+                                <p className=" font-semibold text-base">Skills : </p>
+                                <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>Open CV</div>
+                                <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>C++</div>
+                                <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>ROS</div>
+                            </div>
+
                             <div className="border-t-2 border-slate-200 dark:border-neutral-700 shadow-lg ... my-5 hidden"></div>
                         </div>
                     </motion.div>
 
-                    <motion.div className="md:flex gap-8 pb-5 border-b-[0px]  " >
+                    <motion.div className="md:flex gap-8  pb-5 border-b-[1px] dark:border-neutral-800  " >
 
                         <div className="">
 
@@ -88,15 +88,15 @@ function Experience() {
                             {/*<p className=" text-left"><span className=" font-semibold">Skills : </span>ASP.NET , C# , HTML , CSS , JavaScript , SQL Server</p>*/}
 
                             <div className="flex flex-wrap gap-1 text-black dark:text-white font-normal justify-start text-sm place-items-center ">
-             <p className=" font-semibold text-base">Skills : </p>
-              <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>ASP.NET</div>
-              <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>C#</div>
-              <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>SQL Server</div>
-              <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>HTML</div>
-              <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>CSS</div>
-              <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>JavaScript</div>
+                                <p className=" font-semibold text-base">Skills : </p>
+                                <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>ASP.NET</div>
+                                <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>C#</div>
+                                <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>SQL Server</div>
+                                <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>HTML</div>
+                                <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>CSS</div>
+                                <div className='   rounded-xl bg-neutral-200 dark:bg-neutral-700 px-2 '>JavaScript</div>
 
-            </div>
+                            </div>
 
                             <div className="border-t-2 border-slate-200 dark:border-neutral-700 shadow-lg ... my-5 hidden"></div>
                         </div>
