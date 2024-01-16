@@ -2,7 +2,7 @@
 **My Portfolio Website :**\
 https://nattagrit-portfolio.netlify.app/
 
-**Front-end Development:**\
+**Web Development:**\
 `HTML` `CSS` `JavaScript` `React.js` `TypeScript`
   
 **Styling:**\
