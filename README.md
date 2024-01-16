@@ -3,7 +3,7 @@
 https://nattagrit-portfolio.netlify.app/
 
 **Front-end Development:**\
-`React.js` `TypeScript` `JavaScript` `HTML` `CSS`
+`HTML` `CSS` `JavaScript` `React.js` `TypeScript`
   
 **Styling:**\
 `Tailwind CSS`
