@@ -5,15 +5,15 @@ import { HashLink } from 'react-router-hash-link'
 function Notice() {
   return (
 
-      <motion.div className="p-5 py-10 card text-white bg-black bg-opacity-50 my-10 shadow-md" whileHover={{ scale: 1.02 }}>
+      <motion.div className="p-5 py-10 card text-white bg-black bg-opacity-25 dark:bg-opacity-50 my-10 shadow-md" whileHover={{ scale: 1.02 }}>
 
         <div className=" text-center self-center">
-          <p className=" underline underline-offset-8 mb-10 bx-flashing">Last Updateded : 15/01/2024</p>
-          <p className=' text-left text-xl  font-bold my-5 '><i className='bx-fw bx bx-info-circle bx-md ' style={{ color: '#ffffff' }}></i>#OPENTOWORK  </p>
-          <div className='mb-5 leading-loose text-left '>
+          <p className=" underline underline-offset-8 mb-5 bx-flashing hidden">Last Updateded : 26/01/2024</p>
+          <p className=' text-left text-xl  font-bold my-0 '><i className='bx-fw bx bx-info-circle bx-sm ' style={{ color: '#ffffff' }}></i><span className="text-2xl"> #</span>OPENTOWORK  </p>
+          <div className='my-2 leading-loose text-left '>
             <p className=''><i className='bx-fw bx bx-chevron-right bx-sm ' style={{ color: '#ffffff' }}></i>Frontend Developer Position</p>
-            <p className=''><i className='bx-fw bx bx-chevron-right bx-sm ' style={{ color: '#ffffff' }}></i>Hybrid In Bangkok</p>
-            <p className=''><i className='bx-fw bx bx-chevron-right bx-sm ' style={{ color: '#ffffff' }}></i>Work From Anywhere</p>
+            <p className=''><i className='bx-fw bx bx-chevron-right bx-sm ' style={{ color: '#ffffff' }}></i>React / Node.js / TypeScript</p>
+            <p className=' '><i className='bx-fw bx bx-chevron-right bx-sm ' style={{ color: '#ffffff' }}></i>WFH / Hybrid in Bangkok </p>
            {/* <p className=''><i className='bx-fw bx bx-chevron-right bx-sm ' style={{ color: '#ffffff' }}></i>Expected salary 30-35k</p> */}
           </div>
           

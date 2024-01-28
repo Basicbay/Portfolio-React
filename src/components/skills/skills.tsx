@@ -5,6 +5,8 @@ import { SiNextdotjs } from "react-icons/si";
 import { motion } from "framer-motion"
 import { FcCommandLine } from "react-icons/fc";
 import { SiDaisyui } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
 
 function Skills() {
   return (
@@ -18,36 +20,46 @@ function Skills() {
           <p className="text-4xl gap-2 flex justify-center place-items-center "><FcCommandLine /> Skills</p>
         </div>
 
-        <div className="card rounded-t-none grid bg-white dark:bg-neutral-900 p-10 md:px-20 gap-5 ">
+        <div className="card rounded-t-none grid bg-white dark:bg-neutral-900 p-10 xl:px-20 gap-5 ">
 
-          <motion.div className=" font-medium grid grid-cols-4 md:grid-cols-6 text-center gap-x-10 gap-y-7  place-items-center border-b-[1px] dark:border-neutral-800 pb-7   "   >
-            <div className=' col-span-4 md:col-span-2 justify-self-center md:justify-self-start  ' ><p className=' text-sm lg:text-base font-bold text-left text-neutral-500'>FRONTEND DEVELOPMENT</p></div>
+          <motion.div className=" font-medium grid grid-cols-3 md:grid-cols-7 text-center gap-x-10 gap-y-7  place-items-center border-b-[1px] dark:border-neutral-800 pb-7   "   >
+            <div className=' col-span-3 md:col-span-2 justify-self-center md:justify-self-start  ' ><p className=' text-sm lg:text-base font-bold text-left text-neutral-500'>FRONTEND DEVELOPMENT</p></div>
             <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxl-html5 bx-lg bx-tada-hover' style={{ color: '#ff6b00' }}></i><p>HTML</p></motion.div>
             <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxl-javascript bx-lg bx-tada-hover' style={{ color: '#f3d405' }}></i><p>JAVASCRIPT</p></motion.div>
             <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxl-css3 bx-lg bx-tada-hover' style={{ color: '#00C7F8' }}></i><p>CSS</p></motion.div>
             <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxl-typescript bx-lg bx-tada-hover' style={{ color: '#0069ff' }}></i><p>TYPESCRIPT</p></motion.div>
+            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxl-sass bx-lg bx-tada-hover' style={{ color: '#FF6AAB ' }}></i><p>SASS</p></motion.div>
           </motion.div>
 
-          <motion.div className="font-medium grid grid-cols-4 md:grid-cols-6 text-center gap-x-10 gap-y-7 place-items-center border-b-[1px] dark:border-neutral-800 pb-7 "   >
+          <motion.div className="font-medium grid grid-cols-4 md:grid-cols-7 text-center gap-x-20 md:gap-x-10 gap-y-7 place-items-center border-b-[1px] dark:border-neutral-800 pb-7  "  >
+            <div className=' col-span-4 md:col-span-2 justify-self-center md:justify-self-start' ><p className=' text-sm lg:text-base font-bold   text-left text-neutral-500 '>FRAMEWORKS & LIBRARIES</p></div>
+            <motion.div className='  col-start-1 md:col-auto' whileHover={{ scale: 1.1 }}><i className='bx bxl-react bx-lg bx-spin-hover ' style={{ color: '#6D52F7 ' }}></i><p>REACT</p></motion.div>
+            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxl-bootstrap bx-lg bx-tada-hover' style={{ color: '#8500ff' }}></i><p>BOOTSTRAP</p></motion.div>
+            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxl-tailwind-css bx-lg bx-tada-hover' style={{ color: '#00DB4C ' }}></i><p>TAILWIND</p></motion.div>
+            <motion.div className='  hidden' whileHover={{ scale: 1.1 }}><i className='bx bxl-nodejs bx-tada-hover bx-lg ' style={{ color: '#75C433' }}></i><p>NODEJS</p></motion.div>
+            <motion.div className='  hidden' whileHover={{ scale: 1.1 }}><i className='bx bx-tada-hover bx-lg ' style={{ color: '#5D6D7E' }}><SiNextdotjs /></i><p>NEXT JS</p></motion.div>
+            <motion.div className='  hidden' whileHover={{ scale: 1.1 }}><i className='bx bxl-jquery bx-lg bx-tada-hover' style={{ color: '#0093E7 ' }}></i><p>JQUERY</p></motion.div>
+            <motion.div className=' hidden' whileHover={{ scale: 1.1 }}><i className='bx bxl-sass bx-lg bx-tada-hover' style={{ color: '#FF6AAB ' }}></i><p>SASS</p></motion.div>
+            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bx-lg bx-tada-hover' style={{ color: '#1BDFA0 ' }}><SiDaisyui /></i><p>DAISYUI</p></motion.div>
+          </motion.div>
+          
+          <motion.div className=" font-medium grid grid-cols-4 md:grid-cols-7 text-center gap-x-20 md:gap-x-10 gap-y-7  place-items-center border-b-[1px] dark:border-neutral-800 pb-7   "   >
+            <div className=' col-span-4 md:col-span-2 justify-self-center md:justify-self-start  ' ><p className=' text-sm lg:text-base font-bold text-left text-neutral-500'>BACKEND DEVELOPMENT</p></div>
+            <motion.div className='  ' whileHover={{ scale: 1.1 }}><i className='bx bxl-nodejs bx-tada-hover bx-lg ' style={{ color: '#75C433' }}></i><p>NODE.JS</p></motion.div>
+            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bx-lg bx-tada-hover' style={{ color: '#B2B2B2' }}><SiExpress /></i><p>EXPRESS.JS</p></motion.div>
+            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxl-mongodb bx-lg bx-tada-hover' style={{ color: '#1BA038' }}></i><p>MONGODB</p></motion.div>
+            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bx-lg bx-tada-hover' style={{ color: '#2CB0D4' }}><GrMysql /></i><p>MYSQL</p></motion.div>
+          </motion.div>
+
+          <motion.div className="font-medium grid grid-cols-4 md:grid-cols-6 text-center gap-x-10 gap-y-7 place-items-center border-b-[1px] dark:border-neutral-800 pb-7 hidden "   >
             <div className=' col-span-4 md:col-span-2 justify-self-center md:justify-self-start ' ><p className=' text-sm lg:text-base font-bold   text-left text-neutral-500  '>RESPONSIVE DESIGN</p></div>
             <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxl-bootstrap bx-lg bx-tada-hover' style={{ color: '#8500ff' }}></i><p>BOOTSTRAP</p></motion.div>
             <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxl-tailwind-css bx-lg bx-tada-hover' style={{ color: '#00DB4C ' }}></i><p>TAILWIND</p></motion.div>
             <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxs-grid-alt bx-lg bx-tada-hover' style={{ color: '#E144E6' }}></i><p>CSSGRID</p></motion.div>
-            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxs-layout bx-lg bx-tada-hover' style={{ color: '#FF2121  ' }}  ></i><p>FLEXBOX</p></motion.div>
-            
+            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxs-layout bx-lg bx-tada-hover' style={{ color: '#FF2121  ' }}  ></i><p>FLEXBOX</p></motion.div>       
           </motion.div>
 
-          <motion.div className="font-medium grid grid-cols-4 md:grid-cols-6 text-center gap-x-10 gap-y-7 place-items-center border-b-[1px] dark:border-neutral-800 pb-7  "  >
-            <div className=' col-span-4 md:col-span-2 justify-self-center md:justify-self-start' ><p className=' text-sm lg:text-base font-bold   text-left text-neutral-500 '>FRAMEWORKS & LIBRARIES</p></div>
-            <motion.div className='  col-start-1 md:col-auto' whileHover={{ scale: 1.1 }}><i className='bx bxl-react bx-lg bx-spin-hover ' style={{ color: '#6D52F7 ' }}></i><p>REACTJS</p></motion.div>
-            <motion.div className='  hidden' whileHover={{ scale: 1.1 }}><i className='bx bxl-nodejs bx-tada-hover bx-lg ' style={{ color: '#75C433' }}></i><p>NODEJS</p></motion.div>
-            <motion.div className='  hidden' whileHover={{ scale: 1.1 }}><i className='bx bx-tada-hover bx-lg ' style={{ color: '#5D6D7E' }}><SiNextdotjs /></i><p>NEXT JS</p></motion.div>
-            <motion.div className='  ' whileHover={{ scale: 1.1 }}><i className='bx bxl-jquery bx-lg bx-tada-hover' style={{ color: '#0093E7 ' }}></i><p>JQUERY</p></motion.div>
-            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxl-sass bx-lg bx-tada-hover' style={{ color: '#FF6AAB ' }}></i><p>SASS</p></motion.div>
-            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bx-lg bx-tada-hover' style={{ color: '#1BDFA0 ' }}><SiDaisyui /></i><p>DAISYUI</p></motion.div>
-          </motion.div>
-
-          <motion.div className="font-medium grid grid-cols-4 md:grid-cols-6 text-center gap-x-10 gap-y-7 place-items-center border-b-[1px]  dark:border-neutral-800 pb-7 "   >
+          <motion.div className="font-medium grid grid-cols-4 md:grid-cols-7 text-center gap-x-10 gap-y-7 place-items-center   dark:border-neutral-800 pb-7 "   >
             <div className=' col-span-4 md:col-span-2 justify-self-center md:justify-self-start ' ><p className=' text-sm lg:text-base font-bold   text-left text-neutral-500 '>VERSION CONTROL</p></div>
             <motion.div className='  col-start-2 md:col-auto' whileHover={{ scale: 1.1 }}><i className='bx bxl-git bx-lg bx-tada-hover' style={{ color: '#E8330B  ' }}></i><p>GIT</p></motion.div>
             <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxl-github bx-lg bx-tada-hover' style={{ color: '#808080 ' }}></i><p>GITHUB</p></motion.div>
