@@ -4,7 +4,7 @@
 https://nattagrit-portfolio.netlify.app/
 
 **Web Development:**\
-`HTML` `CSS` `JavaScript` `React.js` `TypeScript`
+`HTML` `CSS` `JavaScript` `React` `TypeScript`
   
 **Styling:**\
 `Tailwind CSS`
