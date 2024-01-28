@@ -1,5 +1,4 @@
 import { FcVoicePresentation } from "react-icons/fc";
-import conimg from './image/contact-us.png'
 import { motion } from "framer-motion"
 
 function Footer() {
