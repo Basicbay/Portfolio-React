@@ -41,7 +41,7 @@ function About() {
               <i className='bx bxs-phone bx-md cursor-pointer  '></i>
             </motion.div>
 
-            <motion.a className=' hover:text-neutral-500  tooltip' data-tip="Send Email" href="mailto:Keepatbayy@gmail.com" target="_blank"
+            <motion.a className=' hover:text-neutral-500  tooltip' data-tip="Send Email" href="mailto:Nattagrit.r@gmail.com" target="_blank"
               whileTap={{ scale: 1.1 }}>
               <i className='bx bx-envelope bx-md  cursor-pointer  '></i>
             </motion.a>

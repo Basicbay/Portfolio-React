@@ -23,8 +23,8 @@ function Footer() {
                         </label>
                     </motion.div>
 
-                    <motion.a href="mailto:Keepatbayy@gmail.com" target="_blank" className=' tooltip' data-tip="Send Email" whileTap={{ scale: 1.1 }}>
-                        <div className="border-[1px]   cursor-pointer hover:bg-black hover:bg-opacity-10 rounded-btn p-3 w-64 text-left xl:text-center select-none" ><i className='bx-fw bx bx-envelope bx-md bx-tada-hover'></i>Keepatbayy@gmail.com<i className='bx bx-paper-plane bx-sm absolute right-4 scale-75 hidden' ></i></div>
+                    <motion.a href="mailto:Nattagrit.r@gmail.com" target="_blank" className=' tooltip' data-tip="Send Email" whileTap={{ scale: 1.1 }}>
+                        <div className="border-[1px]   cursor-pointer hover:bg-black hover:bg-opacity-10 rounded-btn p-3 w-64 text-left xl:text-center select-none" ><i className='bx-fw bx bx-envelope bx-md bx-tada-hover'></i>Nattagrit.r@gmail.com<i className='bx bx-paper-plane bx-sm absolute right-4 scale-75 hidden' ></i></div>
                     </motion.a>
 
                     <motion.a href="https://www.linkedin.com/in/nattagrit-ridtikhab-83894b2a0/" target="_blank" className="border-[1px]   cursor-pointer  hover:bg-black hover:bg-opacity-10 rounded-btn  p-3 w-64 text-left xl:text-center select-none tooltip" data-tip="Linked" whileTap={{ scale: 1.1 }}><i className='bx-fw bx bxl-linkedin bx-md bx-tada-hover'></i>Nattagrit Ridtikhab<i className='bx bx-link bx-sm absolute right-4 scale-95 hidden' ></i></motion.a>
