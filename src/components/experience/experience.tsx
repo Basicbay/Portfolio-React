@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 function Experience() {
     return (
         <motion.div id='experience' className="experience dark:text-white text-black 
-        text-base my-10 " whileHover={{ scale: 1.02 }}>
+        text-base my-10 "  >
 
             <div className="  shadow-md bg-white dark:bg-neutral-900  rounded-2xl overflow-hidden">
 

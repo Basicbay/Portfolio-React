@@ -11,7 +11,7 @@ function Projects() {
   return (
 
     <motion.div id='projects' className="projects dark:text-white text-black
-    text-base my-10 " whileHover={{ scale: 1.02 }}>
+    text-base my-10 "  >
 
       <div className="card p-10 font-extrabold text-center md:text-left bg-neutral-100 dark:bg-neutral-950 rounded-b-none ">
         <p className="text-4xl gap-2 flex justify-center "><FcOpenedFolder />Projects</p>
@@ -22,7 +22,7 @@ function Projects() {
       <div className="carousel w-full md:grid md:grid-cols-2 xl:grid-cols-3 scroll-pl-5 gap-6 p-5 lg:p-10">
 
         <div id="item1" className="carousel-item w-full">
-          <motion.div className="card w-full shadow-md bg-white dark:bg-neutral-900 text-center md:text-left " whileHover={{ scale: 1.01 }}>
+          <motion.div className="card w-full shadow-md bg-white dark:bg-neutral-900 text-center md:text-left "  >
             <figure><img src={port} alt="Shoes" /></figure>
             <div className="card-body">
               <h2 className="card-title text-2xl font-bold self-center md:self-start ">
@@ -47,7 +47,7 @@ function Projects() {
         </div>
 
         <div id="item2" className="carousel-item w-full">
-          <motion.div className="card w-fill shadow-md bg-white dark:bg-neutral-900 text-center md:text-left  " whileHover={{ scale: 1.01 }}>
+          <motion.div className="card w-fill shadow-md bg-white dark:bg-neutral-900 text-center md:text-left  "  >
             <figure><img src={mern} alt="Shoes" /></figure>
             <div className="card-body">
               <h2 className="card-title text-2xl self-center md:self-start">
@@ -70,7 +70,7 @@ function Projects() {
         </div>
 
         <div id="item3" className="carousel-item w-full">
-          <motion.div className="card w-fill shadow-md bg-white dark:bg-neutral-900 text-center md:text-left  " whileHover={{ scale: 1.01 }}>
+          <motion.div className="card w-fill shadow-md bg-white dark:bg-neutral-900 text-center md:text-left  "  >
             <figure><img src={app} alt="Shoes" /></figure>
             <div className="card-body">
               <h2 className="card-title text-2xl font-bold self-center md:self-start ">
