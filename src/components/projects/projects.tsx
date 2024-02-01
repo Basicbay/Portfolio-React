@@ -51,7 +51,7 @@ function Projects() {
             <figure><img src={mern} alt="Shoes" /></figure>
             <div className="card-body">
               <h2 className="card-title text-2xl self-center md:self-start">
-                <a href="https://mern-stack-crud-m2qd.onrender.com/" target="_blank" className='link text-blue-500 hover:text-blue-800 font-bold'>Employee Database</a>
+                <a href="https://mern-stack-crud-m2qd.onrender.com/" target="_blank" className=' text-blue-500 hover:text-blue-800 font-bold'><span className='link'>Employee Database</span>&nbsp;<span className='badge badge-neutral'>link</span></a>
               </h2>
               <p className='mb-1 hidden'>More than 50 apps available in : </p>
               <div className=' flex flex-wrap justify-center md:justify-start gap-3 md:my-2 my-auto '>

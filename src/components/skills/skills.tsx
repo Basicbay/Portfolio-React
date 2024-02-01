@@ -33,8 +33,8 @@ function Skills() {
             <motion.div className='  md:col-start-3' whileHover={{ scale: 1.1 }}><i className='bx bxl-react bx-lg bx-spin-hover ' style={{ color: '#6D52F7 ' }}></i><p>REACT.JS</p></motion.div>
             <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxl-bootstrap bx-lg bx-tada-hover' style={{ color: '#8500ff' }}></i><p>BOOTSTRAP</p></motion.div>
             <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxl-tailwind-css bx-lg bx-tada-hover' style={{ color: '#00DB4C ' }}></i><p>TAILWIND</p></motion.div>
-            <motion.div className='hidden' whileHover={{ scale: 1.1 }}><i className='bx bx-lg bx-tada-hover' style={{ color: '#0093E7 ' }}><SiMui /></i><p>MUI</p></motion.div>
-            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bx-lg bx-tada-hover' style={{ color: '#1BDFA0 ' }}><SiDaisyui /></i><p>DAISYUI</p></motion.div>
+            <motion.div className='' whileHover={{ scale: 1.1 }}><i className='bx bx-lg bx-tada-hover scale-75' style={{ color: '#0093E7 ' }}><SiMui /></i><p>MUI</p></motion.div>
+            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bx-lg bx-tada-hover' style={{ color: '#F5B041 ' }}><SiDaisyui /></i><p>DAISYUI</p></motion.div>
             <motion.div className='  hidden' whileHover={{ scale: 1.1 }}><i className='bx bx-tada-hover bx-lg ' style={{ color: '#5D6D7E' }}><SiNextdotjs /></i><p>NEXT JS</p></motion.div>
           </motion.div>
 
@@ -52,9 +52,9 @@ function Skills() {
           <motion.div className=" font-medium grid grid-cols-3 md:grid-cols-7 text-center gap-x-10  gap-y-7  place-items-center  border-b-[1px] dark:border-neutral-800 pb-7   "   >
             <div className=' col-span-3 md:col-span-2 justify-self-center md:justify-self-start  ' ><p className=' text-sm lg:text-base font-bold text-left text-neutral-500'>BACKEND DEVELOPMENT</p></div>
             <motion.div className='  ' whileHover={{ scale: 1.1 }}><i className='bx bxl-nodejs bx-tada-hover bx-lg ' style={{ color: '#75C433' }}></i><p>NODE.JS</p></motion.div>
-            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bx-lg bx-tada-hover' style={{ color: '#B2B2B2' }}><SiExpress /></i><p>EXPRESS.JS</p></motion.div>
+            <motion.div className=' hidden' whileHover={{ scale: 1.1 }}><i className='bx bx-lg bx-tada-hover' style={{ color: '#B2B2B2' }}><SiExpress /></i><p>EXPRESS.JS</p></motion.div>
             <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bxl-mongodb bx-lg bx-tada-hover' style={{ color: '#1BA038' }}></i><p>MONGODB</p></motion.div>
-            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bx-lg bx-tada-hover' style={{ color: '#2CB0D4' }}><GrMysql /></i><p>MYSQL</p></motion.div>
+            <motion.div className=' ' whileHover={{ scale: 1.1 }}><i className='bx bx-lg bx-tada-hover scale-75' style={{ color: '#2CB0D4' }}><GrMysql /></i><p>MYSQL</p></motion.div>
           </motion.div>
 
           <motion.div className="font-medium grid grid-cols-4 md:grid-cols-6 text-center gap-x-10 gap-y-7 place-items-center border-b-[1px] dark:border-neutral-800 pb-7 hidden "   >
