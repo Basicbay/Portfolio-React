@@ -16,7 +16,7 @@ function Experience() {
                 <div className='text-center md:text-left dark:text-white p-5 lg:p-10 carousel w-full md:grid scroll-pl-5 gap-6 m-auto md:grid-cols-2 '>
 
                     <div id="itemA" className="carousel-item w-full">
-                        <motion.div className="md:flex gap-8 pb-5 border-[1px] card p-5  dark:border-neutral-800 dark:hover:border-white hover:border-neutral-800 " >
+                        <motion.div className="md:flex gap-8 pb-5 border-[1px] card p-5  dark:border-neutral-800   " >
                             <div className="">
                                 <span className=" text-teal-500 text-lg font-bold ">Work</span>
                                 <p className=' text-2xl  font-bold mb-2  '>Mobile Game Developer</p>
@@ -36,7 +36,7 @@ function Experience() {
                     </div>
 
                     <div id="itemB" className="carousel-item w-full">
-                        <motion.div className="md:flex gap-8 pb-5 border-[1px] card p-5   dark:border-neutral-800 dark:hover:border-white hover:border-neutral-800  " >
+                        <motion.div className="md:flex gap-8 pb-5 border-[1px] card p-5   dark:border-neutral-800    " >
                             <div className="">
                                 <span className=" text-teal-500 text-lg font-bold ">Bootcamp</span>
                                 <p className=' text-2xl  font-bold mb-2  '>Java Software Engineer</p>
@@ -57,7 +57,7 @@ function Experience() {
                     </div>
 
                     <div id="itemC" className="carousel-item w-full">
-                        <motion.div className="md:flex gap-8  pb-5 border-[1px] card p-5  dark:border-neutral-800 dark:hover:border-white hover:border-neutral-800    " >
+                        <motion.div className="md:flex gap-8  pb-5 border-[1px] card p-5  dark:border-neutral-800      " >
                             <div className="">
                                 <span className=" text-teal-500 text-lg font-bold ">Graduation Project</span>
                                 <p className=' text-2xl  font-bold mb-2  '>Computer Vision </p>
@@ -76,7 +76,7 @@ function Experience() {
                     </div>
 
                     <div id="itemD" className="carousel-item w-full">
-                        <motion.div className="md:flex gap-8  pb-5 border-[1px] card p-5   dark:border-neutral-800 dark:hover:border-white hover:border-neutral-800   " >
+                        <motion.div className="md:flex gap-8  pb-5 border-[1px] card p-5   dark:border-neutral-800     " >
                             <div className="">
                                 <p className=" text-teal-500 text-lg font-bold ">Project</p>
                                 <p className=' text-2xl  font-bold mb-2  '>ASP.NET Web App</p>

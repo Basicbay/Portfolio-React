@@ -15,7 +15,7 @@ function Footer() {
                 <nav className="  self-center grid md:grid-cols-2 xl:grid-cols-4 md:gap-x-20 md:gap-y-10 xl:gap-x-10 gap-5 xl:py-5   ">
                     <motion.div className=' lg:co tooltip' data-tip="Copy Phone Number" whileTap={{ scale: 1.1 }}>
                         <label className="swap">
-                            <div onClick={() => { navigator.clipboard.writeText('0867499315') }} className="border-[1px]   cursor-pointer   hover:bg-black hover:bg-opacity-10 rounded-btn p-3 w-64 text-left xl:text-center " ><i className='bx-fw bx bxs-phone bx-md bx-tada-hover'></i>0867499315
+                            <div onClick={() => { navigator.clipboard.writeText('0867499315') }} className="   cursor-pointer   bg-black bg-opacity-10 hover:bg-opacity-25 rounded-btn p-3 w-64 text-left xl:text-center " ><i className='bx-fw bx bxs-phone bx-md bx-tada-hover'></i>0867499315
                                 <input type="checkbox" />
                                 <div className="swap-on hidden"><i className='bx bx-check bx-sm absolute right-4 bottom-3 scale-75' ></i></div>
                                 <div className="swap-off hidden"><i className='bx bx-copy bx-sm absolute right-4 bottom-3 scale-75' ></i></div>
@@ -24,12 +24,12 @@ function Footer() {
                     </motion.div>
 
                     <motion.a href="mailto:Nattagrit.r@gmail.com" target="_blank" className=' tooltip' data-tip="Send Email" whileTap={{ scale: 1.1 }}>
-                        <div className="border-[1px]   cursor-pointer hover:bg-black hover:bg-opacity-10 rounded-btn p-3 w-64 text-left xl:text-center select-none" ><i className='bx-fw bx bx-envelope bx-md bx-tada-hover'></i>Nattagrit.r@gmail.com<i className='bx bx-paper-plane bx-sm absolute right-4 scale-75 hidden' ></i></div>
+                        <div className="  cursor-pointer bg-black bg-opacity-10 hover:bg-opacity-25 rounded-btn p-3 w-64 text-left xl:text-center select-none" ><i className='bx-fw bx bx-envelope bx-md bx-tada-hover'></i>Nattagrit.r@gmail.com<i className='bx bx-paper-plane bx-sm absolute right-4 scale-75 hidden' ></i></div>
                     </motion.a>
 
-                    <motion.a href="https://www.linkedin.com/in/nattagrit-ridtikhab-83894b2a0/" target="_blank" className="border-[1px]   cursor-pointer  hover:bg-black hover:bg-opacity-10 rounded-btn  p-3 w-64 text-left xl:text-center select-none tooltip" data-tip="Linked" whileTap={{ scale: 1.1 }}><i className='bx-fw bx bxl-linkedin bx-md bx-tada-hover'></i>Nattagrit Ridtikhab<i className='bx bx-link bx-sm absolute right-4 scale-95 hidden' ></i></motion.a>
+                    <motion.a href="https://www.linkedin.com/in/nattagrit-ridtikhab-83894b2a0/" target="_blank" className="  cursor-pointer  bg-black bg-opacity-10 hover:bg-opacity-25 rounded-btn  p-3 w-64 text-left xl:text-center select-none tooltip" data-tip="Linked" whileTap={{ scale: 1.1 }}><i className='bx-fw bx bxl-linkedin bx-md bx-tada-hover'></i>Nattagrit Ridtikhab<i className='bx bx-link bx-sm absolute right-4 scale-95 hidden' ></i></motion.a>
 
-                    <motion.a href="https://github.com/Basicbay" target="_blank" className=" border-[1px]   cursor-pointer  p-3 w-64 hover:bg-black hover:bg-opacity-10 rounded-btn  text-left xl:text-center select-none tooltip" data-tip="Github" whileTap={{ scale: 1.1 }}><i className='bx-fw bx bxl-github bx-md  bx-tada-hover'></i>Basicbay<i className='bx bx-link bx-sm absolute right-4 scale-95 hidden' ></i></motion.a>
+                    <motion.a href="https://github.com/Basicbay" target="_blank" className="   cursor-pointer  p-3 w-64 bg-black bg-opacity-10 hover:bg-opacity-25 rounded-btn  text-left xl:text-center select-none tooltip" data-tip="Github" whileTap={{ scale: 1.1 }}><i className='bx-fw bx bxl-github bx-md  bx-tada-hover'></i>Basicbay<i className='bx bx-link bx-sm absolute right-4 scale-95 hidden' ></i></motion.a>
 
                 </nav>
 

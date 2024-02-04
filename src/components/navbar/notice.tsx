@@ -12,8 +12,8 @@ function Notice() {
           <p className=' text-left text-xl  font-bold my-0 '><i className='bx-fw bx bx-info-circle bx-sm ' style={{ color: '#ffffff' }}></i><span className="text-2xl"> #</span>OPENTOWORK  </p>
           <div className='my-2 leading-loose text-left '>
             <p className=''><i className='bx-fw bx bx-chevron-right bx-sm ' style={{ color: '#ffffff' }}></i>Frontend Developer Position</p>
-            <p className=''><i className='bx-fw bx bx-chevron-right bx-sm ' style={{ color: '#ffffff' }}></i>React / Node.js / TypeScript</p>
-            <p className=' '><i className='bx-fw bx bx-chevron-right bx-sm ' style={{ color: '#ffffff' }}></i>WFH / Hybrid in Bangkok </p>
+            <p className=''><i className='bx-fw bx bx-chevron-right bx-sm ' style={{ color: '#ffffff' }}></i>React / TypeScript / Node.js</p>
+            <p className=' '><i className='bx-fw bx bx-chevron-right bx-sm ' style={{ color: '#ffffff' }}></i>WFH or Hybrid in Bangkok </p>
            {/* <p className=''><i className='bx-fw bx bx-chevron-right bx-sm ' style={{ color: '#ffffff' }}></i>Expected salary 30-35k</p> */}
           </div>
           

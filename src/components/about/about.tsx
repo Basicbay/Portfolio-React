@@ -69,7 +69,7 @@ function About() {
           <motion.div className='z-10'>
             <p className=' text-2xl font-bold gap-2 my-5 flex self-center md:self-start place-items-center  '><i className='bx text-accent bx-sm '><BsFillEmojiSmileFill /></i>About Me ...</p>
             <p className=' indent-8 mb-3 '><span className=' font-semibold'> Hello, I'm Nattagrit Ridtikhab (Bay)</span>, a passionate and aspiring <span className=' font-semibold text-md text-teal-500'>Frontend Developer</span> with a keen interest in creating visually appealing and User-Friendly Interface Websites.</p>
-            <p className='mb-3'>Despite my limited professional experience, I possess a strong foundation in <span className=' font-semibold text-md '> HTML, JavaScript, CSS, and the React.js Framework.</span> </p>
+            <p className='mb-3'>Despite my limited professional experience, I possess a strong foundation in <span className=' font-semibold text-md '> HTML, JavaScript, CSS, and React</span> </p>
             <p className='mb-3'>My journey in the world of web development is driven by a relentless curiosity and a commitment to  Continuous Learning. </p>
           </motion.div>
 
