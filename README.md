@@ -1,7 +1,6 @@
 ## Nattagrit Portfolio 👨🏻‍💻
 
-**URL:**\
-https://nattagrit-portfolio.netlify.app/
+**URL:** https://nattagrit-portfolio.netlify.app/
 
 **Web Development:**\
 `HTML` `CSS` `JavaScript` `React` `TypeScript`
