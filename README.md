@@ -14,6 +14,7 @@
 **Build and Deployment:**\
 `Vite` `Netlify (for deployment)`
 
-![image portfolio web](https://github.com/Basicbay/Portfolio-Website/assets/151770227/fe948dcc-2f4b-4408-b2fb-2c49c9f87d65)
+![image portfolio web](https://github.com/Basicbay/Portfolio-React/assets/151770227/1ba43bc1-0712-418c-ab57-e8daff54fa56)
+
 
 
