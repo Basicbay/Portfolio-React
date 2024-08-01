@@ -2,18 +2,18 @@
 **URL:** https://nattagrit-portfolio.netlify.app/
 
 ## Tech stack
-`Vite` `Bun` `HTML` `CSS` `Typescript` `React` `Tailwind CSS` `Daisy UI`
+`Vite` `HTML` `CSS` `Typescript` `React` `Tailwind CSS` `Daisy UI`
 
 ## Installation
 ```console
-git clone https://github.com/Basicbay/personal-portfolio.git
+git clone https://github.com/Basicbay/portfolio-website.git
 ```
 ```console
-cd personal-portfolio
+cd portfolio-website
 ```
 ```console
-bun install
+npm install
 ```
 ```console
-bun dev
+npm run dev
 ```
