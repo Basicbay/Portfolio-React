@@ -1,5 +1,5 @@
 # Portfolio Website 👨🏻‍💻
-**URL** https://nattagrit-portfolio.netlify.app/
+**URL** https://nattagrit-port.netlify.app/
 
 ## Tech stack
 `Vite` `HTML` `CSS` `Typescript` `React` `Tailwind CSS` `Daisy UI`
